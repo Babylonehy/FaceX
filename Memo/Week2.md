@@ -23,3 +23,6 @@ DTD is a texture database, consisting of 5640 images, organized according to a l
 
 ## *Baseline*
 
+## Meeting
+
+Mapping mesh vertex into AUs
