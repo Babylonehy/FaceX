@@ -20,3 +20,4 @@ Finally, delivering a report.
 
 * [Week1](./Memo/Introduction.md)
 * [Week2](./Memo/Week2.md)
+* [Week3](./Memo/Week3.md)
