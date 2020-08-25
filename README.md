@@ -15,6 +15,9 @@ For developing synthetic face emotion dataset, writing a literature survey is th
 If time permits use some tools to include functionality to modify face adornments (hats, glasses etc).
 
 Finally, delivering a report.
+# Zoom
+
+https://anu.zoom.us/j/603332221?pwd=QWJ4d1FySXVSSXEraWhoN3B3NTR4Zz09
 
 # Weekly Memo
 
