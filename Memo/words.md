@@ -1,0 +1,38 @@
+- off-the-shelf : 现有的, 常见流行的
+- performance-based : 性能化的
+- Bilinear:双线性
+- eleborate：阐述
+- performance degradation ：性能退化，衰减
+- fall short of the diversity：缺乏多样性| 达不到..
+- feminine/masculine：女性的/男性的|阴柔的/阳刚的
+- conceal:隐藏
+- register：记录，注册
+- asymmetric：不对称的
+- plague：折磨，麻烦
+- aggregate：汇集，聚集
+- truncate： 截断
+- to the best of our knowledge: 据我们所知
+- unilateral：单侧的
+- descriptors ：描述
+- regression of：回归
+- detectable：可检测的
+- tedious : 繁琐的
+- mimics：模拟
+- ordinal：顺序的，依次的
+- spontaneous：自然的，自发的
+- stimulus：刺激，激励
+- elicit：引出，引导
+- two decimal：小数点后两位
+- deviation：偏离
+- crucially：关键的
+- fiducial：基准的：基准的
+- ensemble:集成，集合
+- receptive：接纳的，感受的
+- inception：起始的
+- occasional：偶然的，临时的
+- halve：对半分
+- reductions：减少
+- retaining ：保持
+- 
+
+

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/RW/Scenes/Naturalfront.unity
+- path: Assets/RW/Scenes/01 Mesh Study Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

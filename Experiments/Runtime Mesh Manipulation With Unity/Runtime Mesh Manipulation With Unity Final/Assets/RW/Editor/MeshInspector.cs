@@ -66,13 +66,17 @@ public class MeshInspector : Editor
     {
         if (mesh.moveVertexPoint)
         {
+            
             Vector3 point = handleTransform.TransformPoint(mesh.vertices[index]); //1
             Handles.color = Color.red;
             point = Handles.FreeMoveHandle(point, handleRotation, mesh.handleSize,
                 Vector3.zero, Handles.DotHandleCap); //2
+            Debug.Log("point:" + point + " " + index);
 
             if (GUI.changed) //3
             {
+                Debug.Log("UI.changed:" + point + " " + index);
+
                 mesh.DoAction(index, handleTransform.InverseTransformPoint(point)); //4
             }
         }

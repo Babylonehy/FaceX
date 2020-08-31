@@ -1,0 +1,15 @@
+{
+  "name": "com.unity.template.3d",
+  "displayName": "3D",
+  "version": "4.2.8",
+  "type": "template",
+  "unity": "2019.3",
+  "description": "This is an empty 3D project that uses Unity's built-in renderer.",
+  "dependencies": {},
+  "repository": {
+    "footprint": "1a5de4a5a612fc326bf0c448c769d0920d53f7d0",
+    "type": "git",
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.template-3d.git",
+    "revision": "25505dd95f2fe5f74cf821ddeade6e17b5a0b995"
+  }
+}

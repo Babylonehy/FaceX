@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NaturalFront&trade; 3D Facial Animation Plugin Pro</title>
+</head>
+
+<body>
+
+<h1>Introduction</h1>
+<p>NaturalFront&trade; 3D Animation Plugin is highly innovative software that focuses on one of the most challenging tasks in 3D industry &ndash; 3D facial animation.</p>
+<br>
+
+<p><img src="start.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<h2>New to this version</h2>
+<p>Improvements: </p>
+<ul>
+    <li> Improve UI </li>
+</ul>
+
+<br>
+
+<h2>Benefits</h2>
+<ul>
+<li>The animation will be successful the first time and every time, without any manual intervention from you. This is <strong>drastically different from conventional trial-and-error</strong> that is unavoidably caused by rigging and creating morph targets. </li>
+<li>The unique 1-Click Animation technology enables you to <strong>instantly</strong> get animation you want, <strong>without any need for rigging, morphing, key-framing or motion capture</strong>. All you need to do is one-mouse-click. </li>
+<li>Since the technology is patented and NaturalFront is currently the only patent assignee, the substantial benefits cannot be found in any other legal software.</li>
+</ul>
+
+<p>This software allows professionals, freelancers, hobbyists and beginners to create high-quality 3D facial animation in a tiny fraction of time and cost that would be needed by using other software, since the plugin uses a highly innovative technology. 
+    By using the new technology, studios, freelancers and beginners can <strong>substantially save the cost and shorten the time</strong> for creating high-quality expressive 3D characters, and, by doing so, enjoy a substantial competitive edge.
+</p>
+<br>
+
+<h1>System Requirements</h1>
+<ul>
+<li>Unity 2019.3 or above</li>
+<li>Desktop Windows 64-bit</li>
+</ul>
+<br>
+
+<h1>Download Plugin</h1>
+<p>NaturalFront 3D Facial Animation Plugin Pro should be found in Unity Asset Store pending Unity approval.</p>
+<p><a href="https://www.assetstore.unity3d.com/">https://www.assetstore.unity3d.com/</a></p>
+<br>
+
+<h1>Package Contents</h1>
+<p>NaturalFront 3D Facial Animation Plugin Pro package is at: </p>
+<p>Assets\NF3DFaceAnimPro30Win</p>
+
+<p>This package contains the following contents:</p>
+
+<p><img src="package_contents.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<h1>Installation</h1>
+<ol>
+<li>Sign In to Unity 3D software.</li>
+<li>Under <strong>File</strong> menu, click <strong>Open Project</strong>.</li>
+<li>Select <strong>Open</strong>.</li>
+<li>Locate NaturalFront 3D Facial Animation Plugin folder on your computer.</li>
+<li>Click <strong>Select Folder</strong>.</li>
+</ol>
+<p><img src="plugin_open.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<p>All package contents will be imported in your Unity 3D project and you&rsquo;re ready to start bringing a 3D face to life!</p>
+<br>
+
+<h1>Features</h1>
+<ul>
+<li>Realistic, custom-built 3D heads, e.g. resembling whatever person on a photo, including both geometry and texture. </li>
+<li>Extremely fast and simple modeling. </li>
+<li>Extremely fast 1-Click Animation.</li>
+<li>Realistic and wide-range of facial expressions.</li>
+<li>Realistic and wide-range of mouth-shapes.</li>
+<li>Highly simple and intuitive user interface.</li>
+<li>Synchronization between animation and audio, and support of lip-sync.</li>
+<li>Exports high-quality 3D models and their customized animation to FBX files, which can be run in any devices and apps supporting FBX.</li>
+</ul>
+
+<p>Instead of spending hundreds or even thousands of dollars on other software, and days or weeks to model and animate one single head, you can very easily get realistic custom-built 3D heads, as many as you want, in seconds, all within Unity.</p>
+<p>More importantly, once a 3D-head is successfully created, you can <strong>instantly get expressions and mouth-shapes you want</strong>, and blend them together, all by a few simple mouse-clicks, <strong>without any need for low-level chores</strong>, such as rigging, morphing, key-framing.</p>
+<p>The whole process is so intuitive and simple that it is <strong>no more difficult than getting your own face generate expressions and talk</strong>.</p>
+<br>
+
+<h1>How It Works?</h1>
+
+<h2>Start the plugin</h2>
+
+<ol>
+<li>Click the <strong>Window</strong> menu option in Unity.</li>
+<li>Click <strong>NaturalFront 3D Facial Animation Plugin Pro</strong>.</li>
+</ol>
+<p><img src="1.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<h2>Photo-to-3D modeling</h2>
+<p>A 3D-face-model will be created, and the 3D-model will resemble the person on the photo, including both geometry and texture. The process should only take a few seconds on a reasonable 64-bit PC. </p>
+<p>Once the 3D-face-model is created, the model will automatically have customized high-quality 3D-animation built-in. </p>
+<h3>Important Note:   </h3>
+<ul>
+<li>For fast modeling, the size of the face-photo is an important factor, besides the computing power of your computer. </li>
+<li>Smaller sizes will lead to faster creation, but larger sizes can create more detailed textures, assuming the face takes the majority of a photo. </li>
+<li>The recommended size is around 1000 pixels * 1000 pixels. </li>
+<li>It is up to users to decide if they want to resize the photo, before photo-to-3D modeling.</li>
+</ul>
+<br>
+
+
+<h3>Start modeling</h3>
+
+<p>Click the first icon <strong>Generate 3D models from photo</strong> to start an <strong>intuitive process </strong>that gets you realistic custom-built 3D heads with all the animation you want, with a few mouse-clicks, all within Unity.</p>
+
+<p><img src="2.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<p>To get started you only need a good quality head-shot photo of a real-human. Click the <em>guidelines</em> or <em>common mistakes</em> links to view two YouTube videos that show you DOs and DO-NOTs in taking and preparing a suitable photo.</p>
+<p><img src="3.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<p>Click the <strong>Next</strong> button to start the process.</p>
+<br>
+
+<h3>Load photo</h3>
+<p>Click <strong>Load</strong> and select a suitable photo stored in your computer.</p>
+<p>Click <strong>Next</strong>.</p>
+<p><img src="4.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<h3>Click the points</h3>
+<ol>
+<li>Following the example photo shown on the right hand side, left mouse click to place the corresponding points on your photo.</li>
+</ol>
+<p><strong>Make sure to place the points in the precise location as shown on the example photo</strong>. Who can click more accurately than a professional like you?</p>
+<p>Select <strong>Undo</strong> to remove previous clicks, one-by-one.</p>
+<p>Alternatively, select <strong>Delete Point</strong> and click a point to delete it, in case you didn't place it exactly right.</p>
+<ol start="2">
+<li>Click <strong>Next</strong>.</li>
+</ol>
+<p><img src="5.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<h2 id="animation_proc">Animate the 3D-face</h2>
+<p>The created 3D head has on average a few thousand vertices. This density has proved to be good for all sorts of facial expressions and mouth shapes.</p>
+
+<h3>Add a primary expression</h3>
+<ol>
+<li>Select a primary expression for a 3D face: <strong>Neutral, Happiness, Sadness, Surprise, Fear, Anger or Disgust</strong>.</li>
+<li>Set the strength of the primary expression using the slider.</li>
+</ol>
+<p><strong>Note:</strong> Moving the slider will automatically change the pose at the expression-level, <strong>without any low-level manual intervention from you</strong>, such as rigging or creating morph targets.</p>
+<br>
+
+<h3>Add a mouth-shape</h3>
+<ol>
+<li>Click <strong>Mouth</strong> to set up a mouth-shape.</li>
+<li>Click High-Level.</li>
+<li>Set <strong>Lip narrow &ndash; Wide</strong> value using the slider.</li>
+<li>Set <strong>Jaw Close &ndash; Open</strong> value using the slider.</li>
+</ol>
+<p><strong>Note:</strong> Moving the slider will automatically change the mouth shape, <strong>without any low-level manual intervention from you</strong>, such as rigging or creating morph targets. If the model already has an expression set, the mouth shape will automatically blend with that expression.</p>
+<p><img src="6.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<h3>Set abstraction levels</h3>
+<ol>
+<li>Click the third icon <strong>Change level of control</strong>, or, Click <strong>Animation</strong> in the plugin menu and select <strong>Level of control</strong>.</li>
+<li>Selecting <strong>Abstract level</strong> enables you to quickly coordinate the animation of the whole face. Or,</li>
+<li>Selecting <strong>Fine-control level</strong> enables you to separately animate the eye-area and the mouth-area, which gives you more freedom in what you want the 3D model to do. </li>
+</ol>
+<p><img src="7.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<h4>Fine-control level: Set Brows</h4>
+<ol>
+<li>Click <strong>Brows</strong>.</li>
+<li>Click <strong>Movements</strong>.</li>
+<li>Select a movement option: <strong>Brow Mid-Up</strong>, <strong>Brow Mid-Down</strong> or <strong>Brow Out Up</strong>.</li>
+<li>Set the strength of the movement using the slider.</li>
+</ol>
+<p><img src="8.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<p><strong>Note:</strong> Moving the slider will automatically animate the eye-area according to your desired effect, <strong>without any low-level manual intervention from you</strong>, such as rigging or creating morph targets.</p>
+<br>
+
+<h4>Fine-control Level: Set Mouth</h4>
+<ol>
+<li>Click <strong>Mouth</strong>.</li>
+<li>Click <strong>Muscles</strong>.</li>
+<li>Select <strong>Neutral</strong>, <strong>Happiness</strong>, <strong>Sadness</strong>, <strong>Surprise</strong>, <strong>Fear</strong>, <strong>Anger</strong> or <strong>Disgust</strong>. These are essentially all the muscles you have on your mouth area! </li>
+<li>Set the strength of the muscle movement using the slider.</li>
+</ol>
+<p><strong>Note:</strong> </p>
+<ul>
+<li> Expressions are used to name the muscles, because some professionals prefer not use anatomical names that are more accurate but less user-friendly. </li>
+<li> Moving the slider will automatically animate the mouth-area according to your desired effect, without any low-level manual intervention from you, such as rigging or creating morph targets. </li>
+</ul>
+<br>
+
+<h2>Synchronization of animation and audio</h2>
+
+<h3>Load and play audio</h3>
+
+<ol>
+<li>Click the second icon <strong>Load audio</strong>, or, Click <strong>Media</strong> in the plugin menu and select <strong>Load audio</strong>.</li>
+<li>Select a file from your computer and click <strong>Open</strong>.</li>
+</ol>
+<p><img src="9.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<h3>Add key & play sound</h3>
+<p>Click <strong>Audio Visualizer</strong> button to focus on the audio window, if this window is not your current focus. </p>
+<ol>
+<li>Left-click to select a time in the audio track. You can then click <strong> ">" button </strong> to play the sound at that time. </li>
+<p><img src="10_A.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<li>Click <strong>Add Key</strong> to make the selected time <strong>a key</strong>.</li>
+<p><img src="10_B.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+</ol>
+<br>
+
+<h3>Save the key</h3>
+<ol>
+<li><a href="#animation_proc"> Set the model to a desired pose </a> at this key-position. </li>
+<li>Once you are satisfied with the pose, click<strong> Save Key</strong> button at the bottom-left, to save the pose into this key.</li>
+<p><img src="11.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+</ol>
+<br>
+<p><strong>Note: A pose will only appear in the final animation if it is saved into a key. </strong> </p>
+<br>
+
+<h3>Delete a saved key</h3>
+<p>You can right click any saved key, and choose "Delete selected key", to delete the pose saved at this keyframe.  </p>
+<p><img src="Delete_key.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+
+<h3>1-Click Animation </h3>
+<ol>
+<li>Save multiple poses into corresponding keys.</li>
+<p><img src="10_C.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<li>Click the<strong> "Animate"</strong> button at the top-left, to <strong>instantly get the animation and synchronization, without any low-level manual intervention from you</strong>, such as rigging, creating morph targets or manually key-framing. </li>
+<p><img src="12.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+</ol>
+<p>Note: Poses at deleted keys will not shown up when "Animate" button is clicked. </p>
+<br>
+<br>
+
+<h2>Export </h2>
+<p>Here users can export customized high-quality 3D-heads AND unlimited realistic animation to FBX files:</p>
+<ul>
+<li>Click the fourth icon <strong>Export to FBX</strong>, or, </li>
+<li>Click <strong>File</strong> in the plugin menu and select <strong>Export</strong>.</li>
+</ul>
+<p><img src="13.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+<br>
+<p>You can choose whether </p>
+<ul>
+<li>to export the model with its customized high-quality animation, or </li>
+<li>to export only the current pose. </li>
+</ul>
+
+<p><img src="14.png" style="border-width: 1px; border-style: solid; border-color: black"></p>
+
+
+
+<p><strong>Note:  </strong>  </p>
+<ul>
+<li>Both the 3D-head and its animation can be exported in a single FBX file. </li>
+<li>The exported animation will be the same as that when the "Animate" button is clicked. </li>
+<li>The exported 3D model and animation can immediately be imported in other 3D apps or other scenes of Unity. </li>
+</ul>
+<br>
+
+
+<h2>Exit plugin</h2>
+<p>To exit plugin:</p>
+<ol>
+<li>Click <strong>File</strong>.</li>
+<li>Select <strong>Exit</strong>.</li>
+</ol>
+<br>
+
+<h1>Pros &amp; Cons</h1>
+<p>NaturalFront&rsquo;s unique philosophy is to make as simple as possible the task of the traditionally time-consuming and costly 3D-face-animation, and at the same time, the animation will be professional-quality.</p>
+<p>These are the key benefits of using NaturalFront 3D Facial Animation plugin:</p>
+<p>- Super-fast modeling and animation</p>
+<p>- Substantial time-saver</p>
+<p>- Substantially cost-effective</p>
+<p>- High-quality and customized 3D models and animation can run anywhere via FBX files. </p>
+<p>Since a user can achieve high-quality 3D modeling and animation without any low-level tasks such as rigging or creating morph targets, the saving of time and cost will be truly <strong>substantial</strong>, in contrast to <em>marginal saving</em> that a user might get used to and/or expected, prior to trying the plugin.</p>
+<br>
+
+<p>Limitations of the current version:</p>
+<ul>
+<li>this version only works on Windows Operating System.</li>
+<li>only models and animates 3D heads, instead of complete 3D characters;</li>
+<li>only models and animates realistic human 3D heads, i.e. animals and unrealistic/fancy characters are not included;</li>
+<li>the current version focus on 3D modeling and animation, i.e. 2D is not currently supported;</li>
+</ul>
+<p>However, we believe that, the benefits far outweigh the limitations.</p>
+<br>
+
+
+
+<h1>Resources</h1>
+<p>To find out more about the NaturalFront&trade; 3D Facial Animation Unity Plugin Pro, please visit the following YouTube tutorial video:</p>
+<p><a href="https://www.youtube.com/watch?v=RJ9OIMZfu5k">https://www.youtube.com/watch?v=RJ9OIMZfu5k</a></p>
+<br>
+
+<h1>About reverse-engineering</h1>
+<p>If this software is being reverse-engineered, its behavior will be un-defined, and NaturalFront is not responsible for any consequences thereof. </p>
+<br>
+
+</body>
+</html>

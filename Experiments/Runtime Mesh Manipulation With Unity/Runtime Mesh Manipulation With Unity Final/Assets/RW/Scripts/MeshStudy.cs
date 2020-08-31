@@ -45,10 +45,12 @@ public class MeshStudy : MonoBehaviour
 
     [HideInInspector]
     public Vector3[] vertices;
-
-    [HideInInspector]
+    
+    //[HideInInspector]
     public bool isCloned = false;
 
+    [HideInInspector]
+    public int vertices_size;
     // For Editor
     public float radius = 0.2f;
     public float pull = 0.3f;
@@ -76,9 +78,11 @@ public class MeshStudy : MonoBehaviour
         meshFilter.mesh = clonedMesh;  //3
 
         vertices = clonedMesh.vertices; //4
+        
         triangles = clonedMesh.triangles;
         isCloned = true; //5
-        Debug.Log("Init & Cloned");
+        vertices_size = vertices.Length;
+        Debug.Log("Init & Cloned "+ vertices.Length+" "+ vertices_size);
     }
 
     public void Reset()
