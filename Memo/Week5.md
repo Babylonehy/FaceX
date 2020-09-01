@@ -37,6 +37,7 @@
 - [Automated Facial Affect Recognition (AFAR)](https://github.com/AffectAnalysisGroup/AFARtoolbox)
 
   Automated measurement of face and head dynamics, detection of facial action units and expression, and affect detection are crucial to multiple domains (e.g., health, education, entertainment). Commercial tools are available but costly and of unknown validity. Open-source ones lack user-friendly GUI for use by non-programmers. For both types, evidence of domain transfer and options for retraining for use in new domains typically are lacking. Deep approaches have two key advantages. They typically outperform shallow ones for facial affect recognition. And pre-trained models provided by deep approaches can be fine tuned with new datasets to optimize performance. AFAR is an open-source, deep-learning based, user-friendly tool for automated facial affect recognition. It consists of a pipeline having four components: (i) face tracking, ii) face registration, (iii) action unit (AU) detection and (iv) visualization. Moreover, finetuning component allows the interested users to finetune the pretrained AU detection models with their own dataset. AFAR has been used in comparative studies of action unit detectors [1], [2] and to investigate cross-domain generalizability [3], assess treatment response to deep brain stimulation (DBS) for treatment-resistant obsessive compulsive disorder [4], and to explore facial dynamics in young children [5] and in adults in treatment for depression [6] among other research.
+
 - [FACS_recognition](https://github.com/jdlamstein/happybot)
 
   The problem I aimed to solve was: Can I make a script to identify AUs and emotions? I used the dlib library in Python to track facial features in the CK+ dataset. Following Tian's paper, the script calculated key distances such as distance between the eyebrows, distance between the lips, and the distance between the corner of the lips and the eyes. With OpenCV, I used the Canny edge detection on the corners of the eyes and between the brows to find the deepening of lines and furrows. Lines and furrows are a transient feature. Adults will have more wrinkles than children and, alone, they are not a reliable indicator of AUs or emotions. However, for this dataset, adding the transient features increased accuracy.
@@ -46,9 +47,11 @@
 - [**Facial Action Unit Intensity Estimation via Semantic Correspondence Learningwith Dynamic Graph Convolution**]()
 - [Expression transfer: A system to build 3D blend shapes for facial animation]()
 - [Blendshape Facial Animation]()
+
   ## Survey
   - [AWESOME-FER](https://github.com/EvelynFan/AWESOME-FER)
   - [3D Facial Expression Synthesis: A Survey]()
+
 # Meeting
 Traditional pipeline:
 
@@ -67,6 +70,7 @@ RGBD(Color image, Depth map) -(ASM,feature points extract)-> feature points (int
    1. How to search for a specifical topic paper or method?
    2. Any idea of 2D to 3D mapping?
    3. FEAFA or *Facewarehouse*？BU-3DFE 
+   
 3. Todo
    - [ ] Blendshape transfer 
    - [ ] Test **SCC** work or not
@@ -77,4 +81,11 @@ RGBD(Color image, Depth map) -(ASM,feature points extract)-> feature points (int
      - [ ] feature representation
      - [ ] Aus detection
      - [ ] Aus blendshapes
+
+# Advice
+- head pose
+- joint Aus -> expressions
+- Tools: OpenFace 2.0: Facial Behavior Analysis Toolkit https://github.com/TadasBaltrusaitis/OpenFace
+- unsup3d: uv->3d code
+- [FACS](https://www.cs.cmu.edu/~face/facs.htm)
    
