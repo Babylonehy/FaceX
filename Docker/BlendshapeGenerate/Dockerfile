@@ -26,7 +26,7 @@ RUN git clone https://github.com/gflags/gflags.git \
     && cd gflags/ \
     && mkdir build && cd build \
     && ccmake .. \
-    && make && make test && make install
+    && make 
 
 
 

@@ -1,6 +1,6 @@
 # Surface mapping
 
-- [Canonical S(urface Mapping via Geometric Cycle Consistency](https://nileshkulkarni.github.io/csm/)
+- [Canonical Surface Mapping via Geometric Cycle Consistency](https://nileshkulkarni.github.io/csm/)
 - [Visualization of DensePose-COCO dataset](https://github.com/facebookresearch/DensePose/blob/master/notebooks/DensePose-COCO-Visualize.ipynb)
 
 # MorphTarget(BlendShape) Retargetting motion to new character
