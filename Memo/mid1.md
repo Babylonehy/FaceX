@@ -1,3 +1,81 @@
+# Expression linear
+``` c++
+case FaceExpression.Neutral:
+    //                       4     1     2     5     7     6     9    10    17    15    25    26    27    16    20    12    23    24
+    expressions = new List<float[]> {
+        new float[nAUs] { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f },
+    };
+    break;
+case FaceExpression.Happiness:
+    //                       4     1     2     5     7     6     9    10    17    15    25    26    27    16    20    12    23    24
+    expressions = new List<float[]> {
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0, 1.0f,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f,    0,    0,    0,    0,    0,    0, 0.8f,    0, 1.0f,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f,    0,    0,    0, 0.8f,    0,    0,    0,    0, 1.0f,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f,    0,    0,    0,    0, 0.8f,    0,    0,    0, 1.0f,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0, 1.0f,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f,    0,    0,    0, 0.8f,    0,    0, 0.8f,    0, 1.0f,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f,    0,    0,    0,    0, 0.8f,    0, 0.8f,    0, 1.0f,    0,    0 },
+    };
+    break;
+case FaceExpression.Sadness:
+    //                       4     1     2     5     7     6     9    10    17    15    25    26    27    16    20    12    23    24
+    expressions = new List<float[]> {
+        new float[nAUs] {    0, 1.0f,    0,    0,    0,    0,    0,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] { 0.8f, 1.0f,    0,    0,    0,    0,    0,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0, 1.0f,    0,    0, 0.8f,    0,    0,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0, 1.0f,    0,    0,    0,    0,    0,    0, 1.0f, 1.0f, 0.8f,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0, 1.0f,    0,    0,    0,    0,    0,    0, 1.0f, 1.0f,    0, 0.8f,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] { 0.8f, 1.0f,    0,    0,    0,    0,    0,    0, 1.0f, 1.0f, 0.8f,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0, 1.0f,    0,    0, 0.8f,    0,    0,    0, 1.0f, 1.0f, 0.8f,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] { 0.8f, 1.0f,    0,    0,    0,    0,    0,    0, 1.0f, 1.0f,    0, 0.8f,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0, 1.0f,    0,    0, 0.8f,    0,    0,    0, 1.0f, 1.0f,    0, 0.8f,    0,    0,    0,    0,    0,    0 },
+    };
+    break;
+case FaceExpression.Anger:
+    //                       4     1     2     5     7     6     9    10    17    15    25    26    27    16    20    12    23    24
+    expressions = new List<float[]> {
+        new float[nAUs] { 1.0f,    0, 1.0f,    0, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1.0f, 1.0f },
+        new float[nAUs] { 1.0f,    0, 1.0f,    0, 1.0f,    0,    0,    0, 0.8f,    0,    0,    0,    0,    0,    0,    0, 1.0f, 1.0f },
+        new float[nAUs] { 1.0f,    0, 1.0f,    0, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0, 0.8f,    0,    0, 1.0f, 1.0f },
+        new float[nAUs] { 1.0f,    0, 1.0f,    0, 1.0f,    0,    0,    0,    0,    0, 0.8f,    0,    0,    0,    0,    0, 1.0f, 1.0f },
+        new float[nAUs] { 1.0f,    0, 1.0f,    0, 1.0f,    0,    0,    0,    0,    0,    0, 0.8f,    0,    0,    0,    0, 1.0f, 1.0f },
+        new float[nAUs] { 1.0f,    0, 1.0f,    0, 1.0f,    0,    0,    0, 0.8f,    0, 0.8f,    0,    0,    0,    0,    0, 1.0f, 1.0f },
+        new float[nAUs] { 1.0f,    0, 1.0f,    0, 1.0f,    0,    0,    0,    0,    0, 0.8f,    0,    0, 0.8f,    0,    0, 1.0f, 1.0f },
+        new float[nAUs] { 1.0f,    0, 1.0f,    0, 1.0f,    0,    0,    0, 0.8f,    0,    0, 0.8f,    0,    0,    0,    0, 1.0f, 1.0f },
+        new float[nAUs] { 1.0f,    0, 1.0f,    0, 1.0f,    0,    0,    0,    0,    0,    0, 0.8f,    0, 0.8f,    0,    0, 1.0f, 1.0f },
+    };
+    break;
+case FaceExpression.Disgust:
+    //                       4     1     2     5     7     6     9    10    17    15    25    26    27    16    20    12    23    24
+    expressions = new List<float[]> {
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f, 1.0f, 0.8f,    0,    0,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f, 1.0f,    0,    0, 0.8f,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f, 1.0f,    0,    0,    0, 0.8f,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f, 1.0f, 0.8f,    0, 0.8f,    0,    0,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0,    0,    0,    0,    0,    0, 1.0f, 1.0f, 0.8f,    0,    0, 0.8f,    0,    0,    0,    0,    0,    0 },
+    };
+    break;
+case FaceExpression.Fear:
+    //                       4     1     2     5     7     6     9    10    17    15    25    26    27    16    20    12    23    24
+    expressions = new List<float[]> {
+        new float[nAUs] {    0, 1.0f,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1.0f,    0,    0,    0 },
+        new float[nAUs] { 0.8f, 1.0f,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1.0f,    0,    0,    0 },
+        new float[nAUs] {    0, 1.0f,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0, 0.8f,    0,    0,    0, 1.0f,    0,    0,    0 },
+        new float[nAUs] {    0, 1.0f,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0, 0.8f,    0,    0, 1.0f,    0,    0,    0 },
+        new float[nAUs] { 0.8f, 1.0f,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0, 0.8f,    0,    0,    0, 1.0f,    0,    0,    0 },
+        new float[nAUs] { 0.8f, 1.0f,    0, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0, 0.8f,    0,    0, 1.0f,    0,    0,    0 },
+    };
+    break;
+case FaceExpression.Surprise:
+    //                       4     1     2     5     7     6     9    10    17    15    25    26    27    16    20    12    23    24
+    expressions = new List<float[]> {
+        new float[nAUs] {    0, 1.0f, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0,    0, 1.0f,   0f,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0, 1.0f, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0, 1.0f, 1.0f,   0f,    0,    0,    0,    0,    0 },
+        new float[nAUs] {    0, 1.0f, 1.0f, 1.0f,    0,    0,    0,    0,    0,    0,    0, 1.0f, 0.6f,    0,    0,    0,    0,    0 },
+    };
+```
 # What is blendshape?
 - https://www.quora.com/What-is-blendshape-exactly
 
@@ -170,3 +248,6 @@ if __name__ == "__main__":
 # space-time nonlinear constranit
 - 1h/iteration with nfaces: 22800     nverts: 11510
 - 
+# Q
+- optimaziation slow 
+- obj 
