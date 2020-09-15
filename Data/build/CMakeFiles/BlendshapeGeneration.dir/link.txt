@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBlendshapeGeneration.a  CMakeFiles/BlendshapeGeneration.dir/src/TriangleGradient.cpp.o CMakeFiles/BlendshapeGeneration.dir/src/MeshTransfer.cpp.o CMakeFiles/BlendshapeGeneration.dir/src/BlendshapeGenerator.cpp.o CMakeFiles/BlendshapeGeneration.dir/src/DeformationTransfer.cpp.o
+/usr/bin/ranlib libBlendshapeGeneration.a
