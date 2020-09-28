@@ -26,3 +26,6 @@ https://anu.zoom.us/j/603332221?pwd=QWJ4d1FySXVSSXEraWhoN3B3NTR4Zz09
 * [Week3](./Memo/Week3.md)
 * [Week4](./Memo/Week4.md)
 * [Week5](./Memo/Week5.md)
+* [Week6](./Memo/Week6.md)
+* [Mid1](./Memo/mid1.md)
+* [Mid2](./Memo/mid2.md)

@@ -41,4 +41,5 @@ The Basel Face Model 2019 is available in the Statismo (https://github.com/stati
 A tool to view the model can be downloaded under https://github.com/unibas-gravis/basel-face-model-viewer
 A parametric face image generator for the model can be downloaded under https://github.com/unibas-gravis/parametric-face-image-generator
 For model based face image analysis you can use our model adaptation framework Scalismo-faces (https://github.com/unibas-gravis/scalismo-faces).
+
 To get started with our software we prepared tutorials and more information under http://gravis.dmi.unibas.ch/PMM/ .

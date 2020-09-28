@@ -247,7 +247,9 @@ if __name__ == "__main__":
 ```
 # space-time nonlinear constranit
 - 1h/iteration with nfaces: 22800     nverts: 11510
-- 
+- Under the condition of 100% CPU utilization, it takes an hour and a half for a single model with 46 blendshapes of egienfaces plus 20 poses.
+- broken surface 
+- no solution... for some model. Ax=B
 # Q
-- optimaziation slow 
-- obj 
+- optimaziation slow: blendshape*faces*3 cere slover
+- obj missorder. 

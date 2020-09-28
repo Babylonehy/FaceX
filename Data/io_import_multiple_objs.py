@@ -201,7 +201,7 @@ class ImportMultipleObjs(bpy.types.Operator, ImportHelper):
                                      use_image_search=self.image_search_setting,
                                      split_mode=self.split_mode_setting,
                                      global_clight_size=self.clamp_size_setting)
-
+            bpy.ops.object.add_named(linked=False, name=i.name)
             if self.center_origin:
                 bpy.ops.object.origin_set(type='ORIGIN_GEOMETRY', center='BOUNDS')
             bpy.ops.transform.resize(value=(self.scale_setting, self.scale_setting, self.scale_setting), constraint_axis=(False, False, False))

@@ -20,7 +20,7 @@ RUN tar zxf ceres-solver-1.14.0.tar.gz
 RUN mkdir ceres-bin
 WORKDIR /ceres-bin
 RUN cmake ../ceres-solver-1.14.0
-RUN make -j3
+RUN make -j1
 RUN make install
 
 
