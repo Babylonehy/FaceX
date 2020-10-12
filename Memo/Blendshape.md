@@ -1,11 +1,10 @@
-This week I first spent a few days to solve the order of the vertices in obj. According to the suggestions from Tom and Xiaoxiao, I consulted some model designers. Then search for related issues on the forum, and successfully realized the linear combination of blendshape by modifying some others' scripts. 
+Recently I first spent a few days to solve the order of the vertices in obj. According to the suggestions from Tom and Xiaoxiao, I consulted some model designers. Then search for related issues on the forum, and successfully realized the linear combination of blendshape by modifying some others' scripts. 
 
 Due to computer limitations, I currently only show one model. 
 
 Thank to tom. I have downloaded the facewarehouse dataset and spent some time on this dataset.
 The resolution is about 10k vectics. There are 20 expressions,46 + 1 neutral blendshape for 150 person. 
 
-Another problem is that I compared some photos of FACS from website with blendshape, and they still look different. I re-read the facewarehouse paper, but unfortunately, it didn't mention how the original blendshape was constructed. just say 46FACS system.
 
 After that, I want to calculate the weight of blendshape corresponding to different poses so that we can reconstruct expressions.
 But there is a problem here. Even for similar looks, different people have different weights for similar expression. Here it is likely that everyone's neutral face looks different. I didn't check it. 
