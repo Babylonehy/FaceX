@@ -22,4 +22,4 @@ Our FLAME model (Faces Learned with an Articulated Model andExpressions) is fact
 - [] Extend flame. 
   - We divide the model into regions by feature points and map by regions. 
   - Or other ways for different ages and skin uv mapping
-- [] Aus transfer, build model form image.
+- [x] Aus transfer, build model form image.

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: anuthesis.bst
+Database file #1: thesis.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in adolphsInvestigatingEmotionsFunctional2018
+Warning--empty journal in cowieEmotionRecognitionHumancomputer2001
+Warning--empty journal in ekmanArgumentBasicEmotions1992
+You've used 11 entries,
+            3096 wiz_defined-function locations,
+            671 strings with 7105 characters,
+and the built_in function-call counts, 7664 in all, are:
+= -- 592
+> -- 368
+< -- 4
++ -- 138
+- -- 123
+* -- 637
+:= -- 1156
+add.period$ -- 46
+call.type$ -- 11
+change.case$ -- 99
+chr.to.int$ -- 11
+cite$ -- 14
+duplicate$ -- 544
+empty$ -- 570
+format.name$ -- 156
+if$ -- 1507
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 123
+newline$ -- 75
+num.names$ -- 44
+pop$ -- 246
+preamble$ -- 1
+purify$ -- 85
+quote$ -- 0
+skip$ -- 163
+stack$ -- 0
+substring$ -- 334
+swap$ -- 294
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 96
+warning$ -- 3
+while$ -- 51
+width$ -- 0
+write$ -- 171
+(There were 3 warnings)

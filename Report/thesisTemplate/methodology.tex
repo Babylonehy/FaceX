@@ -1,0 +1,41 @@
+\chapter{Experimental Methodology}
+\label{cha:methodology}
+
+\section{Software platform}
+\label{sec:softplat}
+
+
+
+\section{Hardware platform}
+\label{sec:hardplat}
+
+Table~\ref{tab:machines} shows how to include tables and Figure~\ref{fig:helloworld} shows how to include codes.
+\begin{table*}
+  \centering
+  \input table/machines.tex
+  \caption{Processors used in our evaluation.}
+  \label{tab:machines}
+\end{table*}
+
+
+
+\begin{figure}
+  \centering
+  \subfigure[\label{fig:c:hello}]{
+  \begin{minipage}[b]{\columnwidth}
+    \lstinputlisting[linewidth=\columnwidth,breaklines=true]{code/hello.c}\vspace*{-2ex}
+  \end{minipage}}
+  \subfigure[\label{fig:java:hello}]{
+  \begin{minipage}[b]{\columnwidth}
+    \lstinputlisting[linewidth=\columnwidth,breaklines=true]{code/hello.java}\vspace*{-2ex}
+  \end{minipage}}
+  \caption{Hello world in Java and C.}
+  \label{fig:helloworld}
+\end{figure}
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "paper"
+%%% End: 

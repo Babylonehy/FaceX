@@ -43,7 +43,7 @@ Each subject performed seven expressions in front of the 3D face scanner. With t
 # Future Works
 
 - Identity Aus
-  -  3D facial landmark
+  - 3D facial landmark
   - Group Aus
   - [**3-Dimensional facial expression recognitionin human using multi-points warping**](FaceX\Reference\3D Au Recognition\3-Dimensional facial expression recognitionin human using multi-points warping.pdf)
   

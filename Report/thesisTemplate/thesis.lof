@@ -1,0 +1,12 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Hello world in Java and C.}}{8}{figure.4.1}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{8}{figure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{8}{figure.4.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The cost of zero initialization}}{10}{figure.5.1}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fraction of cycles spent on zeroing}}}{10}{figure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {BytesZeroed / BytesBurstTransactionsTransferred}}}{10}{figure.5.1}%
+\addvspace {10\p@ }

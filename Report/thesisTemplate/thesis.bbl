@@ -1,0 +1,97 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Adolphs and
+  Andler(2018)}]{adolphsInvestigatingEmotionsFunctional2018}
+\textsc{Adolphs, R. and Andler, D.}, 2018.
+\newblock Investigating {{Emotions}} as {{Functional States Distinct From
+  Feelings}}.
+\newblock  (2018), 191--201.
+\newblock \doi{10.1177/1754073918765662}.
+
+\bibitem[{Bekele et~al.(2013)Bekele, Zheng, Swanson, Crittendon, Warren, and
+  Sarkar}]{bekeleUnderstandingHowAdolescents2013}
+\textsc{Bekele, E.; Zheng, Z.; Swanson, A.; Crittendon, J.; Warren, Z.; and
+  Sarkar, N.}, 2013.
+\newblock Understanding {{How Adolescents}} with {{Autism Respond}} to {{Facial
+  Expressions}} in {{Virtual Reality Environments}}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
+  (Apr. 2013), 711--720.
+\newblock \doi{10.1109/TVCG.2013.42}.
+
+\bibitem[{Cabanac(2002)}]{Cabanac_2002}
+\textsc{Cabanac, M.}, 2002.
+\newblock What is emotion?
+\newblock \emph{Behavioural Processes}, 60, 2  (Nov 2002), 69–83.
+\newblock \doi{10.1016/S0376-6357(02)00078-5}.
+
+\bibitem[{Chen et~al.(2015)Chen, Lee, and
+  Lin}]{chenAugmentedRealitybasedSelffacial2015}
+\textsc{Chen, C.-H.; Lee, I.-J.; and Lin, L.-Y.}, 2015.
+\newblock Augmented reality-based self-facial modeling to promote the emotional
+  expression and social skills of adolescents with autism spectrum disorders.
+\newblock \emph{Research in Developmental Disabilities},  (Jan. 2015),
+  396--403.
+\newblock \doi{10.1016/j.ridd.2014.10.015}.
+
+\bibitem[{Cowie et~al.(Jan./2001)Cowie, Douglas-Cowie, Tsapatsoulis, Votsis,
+  Kollias, Fellenz, and Taylor}]{cowieEmotionRecognitionHumancomputer2001}
+\textsc{Cowie, R.; Douglas-Cowie, E.; Tsapatsoulis, N.; Votsis, G.; Kollias,
+  S.; Fellenz, W.; and Taylor, J.}, Jan./2001.
+\newblock Emotion recognition in human-computer interaction.
+\newblock  (Jan./2001), 32--80.
+\newblock \doi{10.1109/79.911197}.
+
+\bibitem[{Ekman(1992)}]{ekmanArgumentBasicEmotions1992}
+\textsc{Ekman, P.}, 1992.
+\newblock An argument for basic emotions.
+\newblock  (1992), 169--200.
+\newblock \doi{10.1080/02699939208411068}.
+
+\bibitem[{Huang et~al.(2019)Huang, Chen, Lv, and
+  Wang}]{huangFacialExpressionRecognition2019}
+\textsc{Huang, Y.; Chen, F.; Lv, S.; and Wang, X.}, 2019.
+\newblock Facial expression recognition: A survey.
+\newblock \emph{Symmetry},  (Sep. 2019), 1189.
+\newblock \doi{10.3390/sym11101189}.
+
+\bibitem[{Jabon et~al.(2011)Jabon, Bailenson, Pontikakis, Takayama, and
+  Nass}]{jabonFacialExpressionAnalysis2011}
+\textsc{Jabon, M.~E.; Bailenson, J.~N.; Pontikakis, E.; Takayama, L.; and Nass,
+  C.}, 2011.
+\newblock Facial expression analysis for predicting unsafe driving behavior.
+\newblock \emph{IEEE Pervasive Computing},  (Apr. 2011), 84--95.
+\newblock \doi{10.1109/MPRV.2010.46}.
+
+\bibitem[{Jerritta et~al.(2011)Jerritta, Murugappan, Nagarajan, and
+  Wan}]{jerrittaPhysiologicalSignalsBased2011}
+\textsc{Jerritta, S.; Murugappan, M.; Nagarajan, R.; and Wan, K.}, 2011.
+\newblock Physiological signals based human emotion {{Recognition}}: A review.
+\newblock In \emph{2011 {{IEEE}} 7th {{International Colloquium}} on {{Signal
+  Processing}} and Its {{Applications}}}, 410--415. {IEEE}, {Penang, Malaysia}.
+\newblock \doi{10.1109/CSPA.2011.5759912}.
+
+\bibitem[{Lankes et~al.(2008)Lankes, Riegler, Weiss, Mirlacher, Pirker, and
+  Tscheligi}]{lankesFacialExpressionsGame2008}
+\textsc{Lankes, M.; Riegler, S.; Weiss, A.; Mirlacher, T.; Pirker, M.; and
+  Tscheligi, M.}, 2008.
+\newblock Facial expressions as game input with different emotional feedback
+  conditions.
+\newblock In \emph{Proceedings of the 2008 {{International Conference}} in
+  {{Advances}} on {{Computer Entertainment Technology}} - {{ACE}} '08}, 253.
+  {ACM Press}, {Yokohama, Japan}.
+\newblock \doi{10.1145/1501750.1501809}.
+
+\bibitem[{Mehrabian and Russell(1974)}]{Mehrabian_Russell_1974}
+\textsc{Mehrabian, A. and Russell, J.~A.}, 1974.
+\newblock \emph{An approach to environmental psychology}.
+\newblock M.I.T. Press.
+\newblock ISBN 9780262130905.
+
+\end{thebibliography}
