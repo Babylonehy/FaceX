@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.23)  8 NOV 2020 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.23)  10 NOV 2020 07:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -715,19 +715,19 @@ File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 4.
  (d:/Latex/texlive/2020/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-))
+) [11
+
+])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [11
-
-] [12
-
-] (./thesis.lof)
+ [12] (./thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [13] [14
+ [13
+
+] [14
 
 ] (./thesis.lot)
 \tf@lot=\write8
@@ -745,105 +745,43 @@ LaTeX Font Info:    Font shape `T1/fve/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 5.
 LaTeX Font Info:    Font shape `T1/fve/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 5.
-) (./background.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-] [2]
-Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-LaTeX Warning: Reference `sec:relatedwork' on page 3 undefined on input line 18.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-) (./design.tex [3
-
-] [4
+[1
 
 ]
+<./figs/overview.png, id=380, 895.1844pt x 525.6438pt>
+File: ./figs/overview.png Graphic file (type png)
+<use ./figs/overview.png>
+Package pdftex.def Info: ./figs/overview.png  used on input line 33.
+(pdftex.def)             Requested size: 411.42686pt x 241.59055pt.
+ [2] [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.43     \item B
+                uild a complete synthetic data engine, including various fac... <./figs/overview.png>]
+
+LaTeX Warning: Reference `cha:result' on page 4 undefined on input line 58.
+
+) (./background.tex [4]
+Chapter 2.
+) (./design.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
+
+] [6]
 Chapter 3.
-) (./methodology.tex [5] [6
+) (./methodology.tex [7
+
+] [8
 
 ]
 Chapter 4.
-(./table/machines.tex
-LaTeX Font Info:    Trying to load font information for T1+fvs on input line 4.
- (d:/Latex/texlive/2020/texmf-dist/tex/latex/bera/t1fvs.fd
-File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
-)
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 4.
-LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 9.
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 27.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 27.
- (d:/Latex/texlive/2020/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 27.
- (./code/hello.c
-LaTeX Font Info:    Font shape `T1/fve/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 1.
-LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 8.09995pt on input line 1.
-) (./code/hello.java)
-Overfull \hbox (3.13385pt too wide) in paragraph at lines 27--32
- [][] 
- []
+) (./conclusion.tex [9] [10
 
-
-Overfull \hbox (3.13385pt too wide) in paragraph at lines 27--32
- [][] 
- []
-
-) (./results.tex [7pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.1 \chapter
-            {Results}] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.1 \chapter
-            {Results}]
+]
 Chapter 5.
-<figs/zerocost_intel.pdf, id=330, 361.35pt x 216.81pt>
-File: figs/zerocost_intel.pdf Graphic file (type pdf)
-<use figs/zerocost_intel.pdf>
-Package pdftex.def Info: figs/zerocost_intel.pdf  used on input line 12.
-(pdftex.def)             Requested size: 411.42686pt x 246.85829pt.
-<figs/zerobus_core.pdf, id=331, 361.35pt x 216.81pt>
-File: figs/zerobus_core.pdf Graphic file (type pdf)
-<use figs/zerobus_core.pdf>
-Package pdftex.def Info: figs/zerobus_core.pdf  used on input line 13.
-(pdftex.def)             Requested size: 411.42686pt x 246.85829pt.
-) (./conclusion.tex [9
-
-] [10pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.1 \chapter
-            {Conclusion} <./figs/zerocost_intel.pdf> <./figs/zerobus_core.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figs/zerobus_core.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Chapter 6.
-) [11
-
-] [12
+) [11] [12
 
 ] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write9
@@ -854,56 +792,54 @@ Chapter 6.
 LaTeX Font Warning: Font shape `T1/fve/m/sc' undefined
 (Font)              using `T1/fve/m/n' instead on input line 17.
 
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 17.
+(d:/Latex/texlive/2020/texmf-dist/tex/latex/bera/t1fvs.fd
+File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
+)
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 17.
 LaTeX Font Info:    Font shape `T1/fve/m/sc' will be
-(Font)              scaled to size 9.85492pt on input line 27.
+(Font)              scaled to size 9.85492pt on input line 29.
 LaTeX Font Info:    Font shape `T1/fve/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fve/m/sl' tried instead on input line 27.
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
-(Font)              scaled to size 9.85492pt on input line 27.
-[13
+(Font)              scaled to size 9.85492pt on input line 29.
+ [13
 
-])
+] [14])
 No file thesis.ind.
-[14]
+[15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 569654AE4BB6537D93431E24053DE68C;1377.
+(rerunfilecheck)             Checksum: EC5377E73DCC6D4FD2E2D63CD9757899;2659.
+Package rerunfilecheck Info: File `thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: 5852BB808B8083507FC56C584295EA38;1995.
 
-
-Package rerunfilecheck Warning: File `thesis.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `thesis.brf':
-(rerunfilecheck)             Before: B63ACDA8A579466F98C11F9D4806006B;745
-(rerunfilecheck)             After:  9AF7516AC5657A938218EEC3B114D965;920.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 21625 strings out of 482503
- 397207 string characters out of 5950241
- 645117 words of memory out of 5000000
- 36631 multiletter control sequences out of 15000+600000
- 604979 words of font info for 92 fonts, out of 8000000 for 9000
+ 21364 strings out of 482503
+ 398042 string characters out of 5950241
+ 635536 words of memory out of 5000000
+ 36381 multiletter control sequences out of 15000+600000
+ 599262 words of font info for 85 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 71i,11n,85p,607b,1592s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/Latex/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fveb8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fver8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fver8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fvmb8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb>
-Output written on thesis.pdf (30 pages, 132490 bytes).
+ 71i,8n,85p,1218b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/Latex/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fveb8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fver8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fver8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/Latex/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on thesis.pdf (31 pages, 1266487 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 387 compressed objects within 4 object streams
- 88 named destinations out of 1000 (max. 500000)
- 311 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 511 compressed objects within 6 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 434 words of extra memory for PDF output out of 10000 (max. 10000000)
 

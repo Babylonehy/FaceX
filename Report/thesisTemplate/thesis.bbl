@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -15,6 +15,18 @@
 \newblock  (2018), 191--201.
 \newblock \doi{10.1177/1754073918765662}.
 
+\bibitem[{Ahonen et~al.(2004)Ahonen, Hadid, and
+  Pietik{\"a}inen}]{ahonenFaceRecognitionLocal2004}
+\textsc{Ahonen, T.; Hadid, A.; and Pietik{\"a}inen, M.}, 2004.
+\newblock Face {{Recognition}} with {{Local Binary Patterns}}.
+\newblock In \emph{Computer {{Vision}} - {{ECCV}} 2004} (Eds.
+  \textsc{T.~Kanade; J.~Kittler; J.~M. Kleinberg; F.~Mattern; J.~C. Mitchell;
+  O.~Nierstrasz; C.~Pandu~Rangan; B.~Steffen; M.~Sudan; D.~Terzopoulos;
+  D.~Tygar; M.~Y. Vardi; G.~Weikum; T.~Pajdla; and J.~Matas}), 469--481.
+  {Springer Berlin Heidelberg}, {Berlin, Heidelberg}.
+\newblock ISBN 978-3-540-21984-2 978-3-540-24670-1.
+\newblock \doi{10.1007/978-3-540-24670-1_36}.
+
 \bibitem[{Bekele et~al.(2013)Bekele, Zheng, Swanson, Crittendon, Warren, and
   Sarkar}]{bekeleUnderstandingHowAdolescents2013}
 \textsc{Bekele, E.; Zheng, Z.; Swanson, A.; Crittendon, J.; Warren, Z.; and
@@ -24,6 +36,16 @@
 \newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
   (Apr. 2013), 711--720.
 \newblock \doi{10.1109/TVCG.2013.42}.
+
+\bibitem[{{Benitez-Quiroz} et~al.(2016){Benitez-Quiroz}, Srinivasan, and
+  Martinez}]{benitez-quirozEmotioNetAccurateRealTime2016a}
+\textsc{{Benitez-Quiroz}, C.~F.; Srinivasan, R.; and Martinez, A.~M.}, 2016.
+\newblock {{EmotioNet}}: {{An Accurate}}, {{Real}}-{{Time Algorithm}} for the
+  {{Automatic Annotation}} of a {{Million Facial Expressions}} in the {{Wild}}.
+\newblock In \emph{2016 {{IEEE Conference}} on {{Computer Vision}} and
+  {{Pattern Recognition}} ({{CVPR}})}, 5562--5570. {IEEE}, {Las Vegas, NV,
+  USA}.
+\newblock \doi{10.1109/CVPR.2016.600}.
 
 \bibitem[{Cabanac(2002)}]{Cabanac_2002}
 \textsc{Cabanac, M.}, 2002.
@@ -40,6 +62,13 @@
   396--403.
 \newblock \doi{10.1016/j.ridd.2014.10.015}.
 
+\bibitem[{Cootes et~al.(1995)Cootes, Taylor, Cooper, and
+  Graham}]{cootesActiveShapeModelsTheir1995}
+\textsc{Cootes, T.; Taylor, C.; Cooper, D.; and Graham, J.}, 1995.
+\newblock Active {{Shape Models}}-{{Their Training}} and {{Application}}.
+\newblock \emph{Computer Vision and Image Understanding},  (Jan. 1995), 38--59.
+\newblock \doi{10.1006/cviu.1995.1004}.
+
 \bibitem[{Cowie et~al.(Jan./2001)Cowie, Douglas-Cowie, Tsapatsoulis, Votsis,
   Kollias, Fellenz, and Taylor}]{cowieEmotionRecognitionHumancomputer2001}
 \textsc{Cowie, R.; Douglas-Cowie, E.; Tsapatsoulis, N.; Votsis, G.; Kollias,
@@ -48,11 +77,32 @@
 \newblock  (Jan./2001), 32--80.
 \newblock \doi{10.1109/79.911197}.
 
+\bibitem[{Du et~al.(2014)Du, Tao, and
+  Martinez}]{duCompoundFacialExpressions2014}
+\textsc{Du, S.; Tao, Y.; and Martinez, A.~M.}, 2014.
+\newblock Compound facial expressions of emotion.
+\newblock \emph{Proceedings of the National Academy of Sciences},  (Apr. 2014),
+  E1454--E1462.
+\newblock \doi{10.1073/pnas.1322355111}.
+
 \bibitem[{Ekman(1992)}]{ekmanArgumentBasicEmotions1992}
 \textsc{Ekman, P.}, 1992.
 \newblock An argument for basic emotions.
 \newblock  (1992), 169--200.
 \newblock \doi{10.1080/02699939208411068}.
+
+\bibitem[{Ekman(2006)}]{ekmanDarwinDeceptionFacial2006}
+\textsc{Ekman, P.}, 2006.
+\newblock Darwin, {{Deception}}, and {{Facial Expression}}.
+\newblock \emph{Annals of the New York Academy of Sciences},  (Jan. 2006),
+  205--221.
+\newblock \doi{10.1196/annals.1280.010}.
+
+\bibitem[{Horn and Schunck(1981)}]{hornDeterminingOpticalFlow1981}
+\textsc{Horn, B.~K. and Schunck, B.~G.}, 1981.
+\newblock Determining optical flow.
+\newblock \emph{Artificial Intelligence},  (Aug. 1981), 185--203.
+\newblock \doi{10.1016/0004-3702(81)90024-2}.
 
 \bibitem[{Huang et~al.(2019)Huang, Chen, Lv, and
   Wang}]{huangFacialExpressionRecognition2019}
@@ -77,6 +127,15 @@
   Processing}} and Its {{Applications}}}, 410--415. {IEEE}, {Penang, Malaysia}.
 \newblock \doi{10.1109/CSPA.2011.5759912}.
 
+\bibitem[{Khan et~al.(2020)Khan, Samyan, Khan, Shahid, and
+  Wahla}]{khanSurveyAnalysisHuman2020}
+\textsc{Khan, G.; Samyan, S.; Khan, M. U.~G.; Shahid, M.; and Wahla, S.~Q.},
+  2020.
+\newblock A survey on analysis of human faces and facial expressions datasets.
+\newblock \emph{International Journal of Machine Learning and Cybernetics},
+  (Mar. 2020), 553--571.
+\newblock \doi{10.1007/s13042-019-00995-6}.
+
 \bibitem[{Lankes et~al.(2008)Lankes, Riegler, Weiss, Mirlacher, Pirker, and
   Tscheligi}]{lankesFacialExpressionsGame2008}
 \textsc{Lankes, M.; Riegler, S.; Weiss, A.; Mirlacher, T.; Pirker, M.; and
@@ -88,10 +147,48 @@
   {ACM Press}, {Yokohama, Japan}.
 \newblock \doi{10.1145/1501750.1501809}.
 
+\bibitem[{Lyons et~al.(1998)Lyons, Akamatsu, Kamachi, and
+  Gyoba}]{lyonsCodingFacialExpressions1998}
+\textsc{Lyons, M.; Akamatsu, S.; Kamachi, M.; and Gyoba, J.}, 1998.
+\newblock Coding facial expressions with {{Gabor}} wavelets.
+\newblock In \emph{Proceedings {{Third IEEE International Conference}} on
+  {{Automatic Face}} and {{Gesture Recognition}}}, 200--205. {IEEE Comput.
+  Soc}, {Nara, Japan}.
+\newblock \doi{10.1109/AFGR.1998.670949}.
+
+\bibitem[{Lyons et~al.(2020)Lyons, Kamachi, and
+  Gyoba}]{lyonsCodingFacialExpressions2020}
+\textsc{Lyons, M.~J.; Kamachi, M.; and Gyoba, J.}, 2020.
+\newblock Coding {{Facial Expressions}} with {{Gabor Wavelets}} ({{IVC Special
+  Issue}}).
+\newblock \emph{arXiv:2009.05938 [cs]},  (Sep. 2020).
+\newblock \doi{10.5281/zenodo.4029679}.
+
+\bibitem[{Mavadati et~al.(2013)Mavadati, Mahoor, Bartlett, Trinh, and
+  Cohn}]{mavadatiDISFASpontaneousFacial2013}
+\textsc{Mavadati, S.~M.; Mahoor, M.~H.; Bartlett, K.; Trinh, P.; and Cohn,
+  J.~F.}, 2013.
+\newblock {{DISFA}}: {{A Spontaneous Facial Action Intensity Database}}.
+\newblock \emph{IEEE Transactions on Affective Computing},  (Apr. 2013),
+  151--160.
+\newblock \doi{10.1109/T-AFFC.2013.4}.
+
 \bibitem[{Mehrabian and Russell(1974)}]{Mehrabian_Russell_1974}
 \textsc{Mehrabian, A. and Russell, J.~A.}, 1974.
 \newblock \emph{An approach to environmental psychology}.
 \newblock M.I.T. Press.
 \newblock ISBN 9780262130905.
+
+\bibitem[{Roh et~al.(2019)Roh, Heo, and Whang}]{rohSurveyDataCollection2019}
+\textsc{Roh, Y.; Heo, G.; and Whang, S.~E.}, 2019.
+\newblock A {{Survey}} on {{Data Collection}} for {{Machine Learning}}: A {{Big
+  Data}} -- {{AI Integration Perspective}}.
+\newblock \emph{arXiv:1811.03402 [cs, stat]},  (Aug. 2019).
+
+\bibitem[{Shorten and Khoshgoftaar(2019)}]{shortenSurveyImageData2019a}
+\textsc{Shorten, C. and Khoshgoftaar, T.~M.}, 2019.
+\newblock A survey on {{Image Data Augmentation}} for {{Deep Learning}}.
+\newblock \emph{Journal of Big Data},  (Dec. 2019), 60.
+\newblock \doi{10.1186/s40537-019-0197-0}.
 
 \end{thebibliography}
