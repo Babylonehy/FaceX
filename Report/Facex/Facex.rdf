@@ -1,0 +1,2263 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Book rdf:about="urn:isbn:978-0-262-13090-5">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cambridge</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>M.I.T. Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mehrabian</foaf:surname>
+                        <foaf:givenName>Albert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Russell</foaf:surname>
+                        <foaf:givenName>James A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Emotions</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Environment</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Environmental psychology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Psychology, Experimental</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Social environment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>An approach to environmental psychology</dc:title>
+        <dc:date>1974</dc:date>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>BF531 .M43</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:identifier>ISBN 978-0-262-13090-5</dc:identifier>
+        <z:numPages>266</z:numPages>
+    </bib:Book>
+    <bib:Article rdf:about="#item_16">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>th International Conference on Information Technology in Asia</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Agianpuye</foaf:surname>
+                        <foaf:givenName>Samuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Minoi</foaf:surname>
+                        <foaf:givenName>Jacey-Lynn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_3"/>
+        <dc:title>3D Facial Expression Synthesis: A Survey</dc:title>
+        <dcterms:abstract>Facial expression synthesis is a process of generating new face shapes from a given face and still retain the distinct facial characteristics of the initial face. The generated facial expressions can be used to improve the performance of existing face identification systems, or to enhance human recognition. Earlier work on synthesizing face shapes used 2D face images. Only recently, the work moved to using 3D face shapes given the availability and improvement in 3D scanner technologies. The advantage of 3D faces over 2D image data is that 3D face holds more geometric shape data and is invariant to poses and illumination. This paper aims to give an overview of the methods used for 3D facial expression synthesis. We present an overview of 3D face expression synthesis, its applications and benefits and then we review some of the most resent 3D face expression synthesis approaches.</dcterms:abstract>
+        <dc:date>2013</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>7</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_3">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3/Agianpuye 和 Minoi - 2013 - 3D Facial Expression Synthesis A Survey.pdf"/>
+        <dc:title>Agianpuye 和 Minoi - 2013 - 3D Facial Expression Synthesis A Survey.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://dl.acm.org/doi/10.1145/3395208">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0730-0301,%201557-7368"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Egger</foaf:surname>
+                        <foaf:givenName>Bernhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>William A. P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tewari</foaf:surname>
+                        <foaf:givenName>Ayush</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wuhrer</foaf:surname>
+                        <foaf:givenName>Stefanie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zollhoefer</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beeler</foaf:surname>
+                        <foaf:givenName>Thabo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bernard</foaf:surname>
+                        <foaf:givenName>Florian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bolkart</foaf:surname>
+                        <foaf:givenName>Timo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kortylewski</foaf:surname>
+                        <foaf:givenName>Adam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Romdhani</foaf:surname>
+                        <foaf:givenName>Sami</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Theobalt</foaf:surname>
+                        <foaf:givenName>Christian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blanz</foaf:surname>
+                        <foaf:givenName>Volker</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vetter</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4"/>
+        <dc:title>3D Morphable Face Models—Past, Present, and Future</dc:title>
+        <dc:date>2020-09-04</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dl.acm.org/doi/10.1145/3395208</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:06</dcterms:dateSubmitted>
+        <bib:pages>1-38</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0730-0301,%201557-7368">
+        <prism:volume>39</prism:volume>
+        <dc:title>ACM Transactions on Graphics</dc:title>
+        <dc:identifier>DOI 10.1145/3395208</dc:identifier>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>ACM Trans. Graph.</dcterms:alternative>
+        <dc:identifier>ISSN 0730-0301, 1557-7368</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4/Egger 等。 - 2020 - 3D Morphable Face Models—Past, Present, and Future.pdf"/>
+        <dc:title>Egger 等。 - 2020 - 3D Morphable Face Models—Past, Present, and Future.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S1877050919318654">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:18770509"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Utami</foaf:surname>
+                        <foaf:givenName>Pipit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hartanto</foaf:surname>
+                        <foaf:givenName>Rudy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soesanti</foaf:surname>
+                        <foaf:givenName>Indah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5"/>
+        <dc:title>A Study on Facial Expression Recognition in Assessing Teaching Skills: Datasets and Methods</dc:title>
+        <dcterms:abstract>Abstract Facial expressions recognition (FER) is an important modality in the future assessing teaching skill system (ATS). The fundamental dFiafcfiearleenxcperwesisthioFnsErReciosginiittios nlo(wFErRes)oilsuatinoinmipmoargtaen, tumnioqduaeliotyccinlutshioenfuotuf rveeailsesdestseiancghteerasc, hainndgvsakriilel dsylsitgehmtin(Ag TcoSn).dTithioenfsu.nHdoamwevnetarl, idtiifsfesrteilnlcaeblweitoh sFoElvRe itsheinpritosbloewm roefsvoaluritaiotinonims ianghe,eaudnipqouseeso.cTchluisisotnudoyf,voevieleradllt,ebacehgearns,wainthdtvhaercieodllelicgthiotinnogfcaorntidcilteisonfrso.mHoSwcoepvuesr, citriesatsetidlltahbeleFEtoRsotalvxeonthoempyrocblalesms aonfdvmaraiaptpioendstihnehuesaedopfodseasta. sTehtsis. Astuftdeyr,foinvdeirnagll,obuetgwanhiwchithdathtaesceotsllwecetrieonsuoiftabrtlieclfeosrftrhoemimScaogpeuosf, ecxreparteesdsitohneiFnEteRacthaxinogn,oamdyeecplearssdiasncdusmsiaopnpaebdotuhtecluassesiofifedr-actlaassestisf.ieAr f(tuesrinfigntdhiengsaomuet wCKhi+chdadtaatsaeste)tws wasecraepsaubilteabolfesfoolvr itnhge pimroabglemosf (elxopwrersessionluitniotneaicmhiangge,, aodcecelupseirodni,scvuasrisaiotinonabionultigchlatsinsigficeor-ncdlaitsisoinfisera(nudsihnegatdheposasmese).CFKin+adllayt,afsreot)mwtahsecdapisacbulsesoiofnsoclovnindgucptreodb,leitmis k(lnoowwrnesthoeluptiootnenitmiaalgfeo,r omcocdluifsicoant,iovnaroifataiolgnorinithlmigsh,tianpgprcoopnrdiaitieodnastasnedtshaenad rpeosseeasr)c.hFoipnpalolryt,ufnriotimestfhoer dfuistucuressFioEnRcionnAduTcSt.ed, it is known the potential for modification of algorithms, appropriate datasets and research opportunities for future FER in ATS.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>A Study on Facial Expression Recognition in Assessing Teaching Skills</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S1877050919318654</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:10</dcterms:dateSubmitted>
+        <bib:pages>544-552</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:18770509">
+        <prism:volume>161</prism:volume>
+        <dc:title>Procedia Computer Science</dc:title>
+        <dc:identifier>DOI 10.1016/j.procs.2019.11.154</dc:identifier>
+        <dcterms:alternative>Procedia Computer Science</dcterms:alternative>
+        <dc:identifier>ISSN 18770509</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_5">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5/Utami 等。 - 2019 - A Study on Facial Expression Recognition in Assess.pdf"/>
+        <dc:title>Utami 等。 - 2019 - A Study on Facial Expression Recognition in Assess.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1910.09399">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:1910.09399 [cs]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Agnese</foaf:surname>
+                        <foaf:givenName>Jorge</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Herrera</foaf:surname>
+                        <foaf:givenName>Jonathan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tao</foaf:surname>
+                        <foaf:givenName>Haicheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenName>Xingquan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_20"/>
+        <link:link rdf:resource="#item_6"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Computer Vision and Pattern Recognition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Graphics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>A Survey and Taxonomy of Adversarial Neural Networks for Text-to-Image Synthesis</dc:title>
+        <dcterms:abstract>Text-to-image synthesis refers to computational methods which translate human written textual descriptions, in the form of keywords or sentences, into images with similar semantic meaning to the text. In earlier research, image synthesis relied mainly on word to image correlation analysis combined with supervised methods to ﬁnd best alignment of the visual content matching to the text. Recent progress in deep learning (DL) has brought a new set of unsupervised deep learning methods, particularly deep generative models which are able to generate realistic visual images using suitably trained neural network models. The change of direction from the computer vision based approaches to artiﬁcial intelligence (AI) driven methods ignited the intense interest in industry, such as virtual reality, recreational &amp; professional (eSports) gaming, and computer-aided design etc., to automatically generate compelling images from text-based natural language descriptions.</dcterms:abstract>
+        <dc:date>2019-10-21</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1910.09399</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:17</dcterms:dateSubmitted>
+        <dc:description>arXiv: 1910.09399</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_20">
+        <rdf:value>Comment: Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery. 2019</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/6/Agnese 等。 - 2019 - A Survey and Taxonomy of Adversarial Neural Networ.pdf"/>
+        <dc:title>Agnese 等。 - 2019 - A Survey and Taxonomy of Adversarial Neural Networ.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://ieeexplore.ieee.org/document/8195348/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1007-0214"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Xian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenName>Kun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hall</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7"/>
+        <dc:title>A survey of image synthesis and editing with generative adversarial networks</dc:title>
+        <dcterms:abstract>This paper presents a survey of image synthesis and editing with Generative Adversarial Networks (GANs). GANs consist of two deep networks, a generator and a discriminator, which are trained in a competitive way. Due to the power of deep networks and the competitive training manner, GANs are capable of producing reasonable and realistic images, and have shown great capability in many image synthesis and editing applications. This paper surveys recent GAN papers regarding topics including, but not limited to, texture synthesis, image inpainting, image-to-image translation, and image editing.</dcterms:abstract>
+        <dc:date>12/2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/8195348/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:21</dcterms:dateSubmitted>
+        <bib:pages>660-674</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1007-0214">
+        <prism:volume>22</prism:volume>
+        <dc:title>Tsinghua Science and Technology</dc:title>
+        <dc:identifier>DOI 10.23919/TST.2017.8195348</dc:identifier>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>Tinshhua Sci. Technol.</dcterms:alternative>
+        <dc:identifier>ISSN 1007-0214</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_7">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/7/Wu 等。 - 2017 - A survey of image synthesis and editing with gener.pdf"/>
+        <dc:title>Wu 等。 - 2017 - A survey of image synthesis and editing with gener.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://onlinelibrary.wiley.com/doi/10.1111/cgf.14047">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0167-7055,%201467-8659"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tsirikoglou</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eilertsen</foaf:surname>
+                        <foaf:givenName>G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Unger</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8"/>
+        <dc:title>A Survey of Image Synthesis Methods for Visual Machine Learning</dc:title>
+        <dcterms:abstract>Image synthesis designed for machine learning applications provides the means to efficiently generate large quantities of training data while controlling the generation process to provide the best distribution and content variety. With the demands of deep learning applications, synthetic data have the potential of becoming a vital component in the training pipeline. Over the last decade, a wide variety of training data generation methods has been demonstrated. The potential of future development calls to bring these together for comparison and categorization. This survey provides a comprehensive list of the existing image synthesis methods for visual machine learning. These are categorized in the context of image generation, using a taxonomy based on modelling and rendering, while a classification is also made concerning the computer vision applications they are used. We focus on the computer graphics aspects of the methods, to promote future image generation for machine learning. Finally, each method is assessed in terms of quality and reported performance, providing a hint on its expected learning potential. The report serves as a comprehensive reference, targeting both groups of the applications and data development sides. A list of all methods and papers reviewed herein can be found at https:// computergraphics.on.liu.se/ image_synthesis_methods_for_visual_machine_learning/ .</dcterms:abstract>
+        <dc:date>09/2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/10.1111/cgf.14047</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:25</dcterms:dateSubmitted>
+        <bib:pages>426-451</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0167-7055,%201467-8659">
+        <prism:volume>39</prism:volume>
+        <dc:title>Computer Graphics Forum</dc:title>
+        <dc:identifier>DOI 10.1111/cgf.14047</dc:identifier>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>Computer Graphics Forum</dcterms:alternative>
+        <dc:identifier>ISSN 0167-7055, 1467-8659</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/8/Tsirikoglou 等。 - 2020 - A Survey of Image Synthesis Methods for Visual Mac.pdf"/>
+        <dc:title>Tsirikoglou 等。 - 2020 - A Survey of Image Synthesis Methods for Visual Mac.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s13042-019-00995-6">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1868-8071,%201868-808X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khan</foaf:surname>
+                        <foaf:givenName>Gulraiz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Samyan</foaf:surname>
+                        <foaf:givenName>Sahar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khan</foaf:surname>
+                        <foaf:givenName>Muhammad Usman Ghani</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shahid</foaf:surname>
+                        <foaf:givenName>Muhammad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wahla</foaf:surname>
+                        <foaf:givenName>Samyan Qayyum</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_9"/>
+        <dc:title>A survey on analysis of human faces and facial expressions datasets</dc:title>
+        <dcterms:abstract>Facial expressions are the basic input for visual emotion detection. They are of great importance in computer vision society. In last decade, substantial amount of work has been done in the field of facial expressions datasets. This survey covers all of the publically available databases in detail and provides necessary information about these sets. This review delivers comprehensive support to researchers in selection of their desired dataset. The datasets are organized in decreasing order of their importance with respect to diversity in expressions, poses, number of images and resolution. This survey also provides comprehensive tabular comparison of different face based databases.</dcterms:abstract>
+        <dc:date>3/2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s13042-019-00995-6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:29</dcterms:dateSubmitted>
+        <bib:pages>553-571</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1868-8071,%201868-808X">
+        <prism:volume>11</prism:volume>
+        <dc:title>International Journal of Machine Learning and Cybernetics</dc:title>
+        <dc:identifier>DOI 10.1007/s13042-019-00995-6</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Int. J. Mach. Learn. &amp; Cyber.</dcterms:alternative>
+        <dc:identifier>ISSN 1868-8071, 1868-808X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_9">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/9/Khan 等。 - 2020 - A survey on analysis of human faces and facial exp.pdf"/>
+        <dc:title>Khan 等。 - 2020 - A survey on analysis of human faces and facial exp.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0197-0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2196-1115"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shorten</foaf:surname>
+                        <foaf:givenName>Connor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khoshgoftaar</foaf:surname>
+                        <foaf:givenName>Taghi M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_10"/>
+        <dc:title>A survey on Image Data Augmentation for Deep Learning</dc:title>
+        <dcterms:abstract>Deep convolutional neural networks have performed remarkably well on many Computer Vision tasks. However, these networks are heavily reliant on big data to avoid overfitting. Overfitting refers to the phenomenon when a network learns a function with very high variance such as to perfectly model the training data. Unfortunately, many application domains do not have access to big data, such as medical image analysis. This survey focuses on Data Augmentation, a data-space solution to the problem of limited data. Data Augmentation encompasses a suite of techniques that enhance the size and quality of training datasets such that better Deep Learning models can be built using them. The image augmentation algorithms discussed in this survey include geometric transformations, color space augmentations, kernel filters, mixing images, random erasing, feature space augmentation, adversarial training, generative adversarial networks, neural style transfer, and meta-learning. The application of augmentation methods based on GANs are heavily covered in this survey. In addition to augmentation techniques, this paper will briefly discuss other characteristics of Data Augmentation such as test-time augmentation, resolution impact, final dataset size, and curriculum learning. This survey will present existing methods for Data Augmentation, promising developments, and meta-level decisions for implementing Data Augmentation. Readers will understand how Data Augmentation can improve the performance of their models and expand limited datasets to take advantage of the capabilities of big data.</dcterms:abstract>
+        <dc:date>12/2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0197-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:33</dcterms:dateSubmitted>
+        <bib:pages>60</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2196-1115">
+        <prism:volume>6</prism:volume>
+        <dc:title>Journal of Big Data</dc:title>
+        <dc:identifier>DOI 10.1186/s40537-019-0197-0</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>J Big Data</dcterms:alternative>
+        <dc:identifier>ISSN 2196-1115</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/10/Shorten 和 Khoshgoftaar - 2019 - A survey on Image Data Augmentation for Deep Learn.pdf"/>
+        <dc:title>Shorten 和 Khoshgoftaar - 2019 - A survey on Image Data Augmentation for Deep Learn.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.dialogues-cns.org/contents-17-4/dialoguesclinneurosci-17-443/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:26083477,%2012948322"/>
+        <link:link rdf:resource="#item_11"/>
+        <dc:title>Compound facial expressions of emotion: from basic research to clinical applications</dc:title>
+        <dcterms:abstract>Emotions are sometimes revealed through facial expressions. When these natural facial articulations involve the contraction of the same muscle groups in people of distinct cultural upbringings, this is taken as evidence of a biological origin of these emotions. While past research had identified facial expressions associated with a single internally felt category (eg, the facial expression of happiness when we feel joyful), we have recently studied facial expressions observed when people experience compound emotions (eg, the facial expression of happy surprise when we feel joyful in a surprised way, as, for example, at a surprise birthday party). Our research has identified 17 compound expressions consistently produced across cultures, suggesting that the number of facial expressions of emotion of biological origin is much larger than previously believed. The present paper provides an overview of these findings and shows evidence supporting the view that spontaneous expressions are produced using the same facial articulations previously identified in laboratory experiments. We also discuss the implications of our results in the study of psychopathologies, and consider several open research questions.</dcterms:abstract>
+        <dc:date>12/2015</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Compound facial expressions of emotion</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.dialogues-cns.org/contents-17-4/dialoguesclinneurosci-17-443/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:37</dcterms:dateSubmitted>
+        <bib:pages>443-455</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:26083477,%2012948322">
+        <prism:volume>17</prism:volume>
+        <dc:title>Dialogues in Clinical Neuroscience</dc:title>
+        <dc:identifier>DOI 10.31887/DCNS.2015.17.4/sdu</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Dialogues Clin Neurosci</dcterms:alternative>
+        <dc:identifier>ISSN 26083477, 12948322</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_11">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/11/2015 - Compound facial expressions of emotion from basic.pdf"/>
+        <dc:title>2015 - Compound facial expressions of emotion from basic.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4673-8851-1">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4673-8851-1</dc:identifier>
+                <dc:title>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</dc:title>
+                <dc:identifier>DOI 10.1109/CVPR.2016.600</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Las Vegas, NV, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benitez-Quiroz</foaf:surname>
+                        <foaf:givenName>C. Fabian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Srinivasan</foaf:surname>
+                        <foaf:givenName>Ramprakash</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Martinez</foaf:surname>
+                        <foaf:givenName>Aleix M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_12"/>
+        <dc:title>EmotioNet: An Accurate, Real-Time Algorithm for the Automatic Annotation of a Million Facial Expressions in the Wild</dc:title>
+        <dc:date>6/2016</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>EmotioNet</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/7780969/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:40</dcterms:dateSubmitted>
+        <bib:pages>5562-5570</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_12">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/12/Benitez-Quiroz 等。 - 2016 - EmotioNet An Accurate, Real-Time Algorithm for th.pdf"/>
+        <dc:title>Benitez-Quiroz 等。 - 2016 - EmotioNet An Accurate, Real-Time Algorithm for th.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.mdpi.com/2073-8994/11/10/1189">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2073-8994"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Yunxin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Fei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lv</foaf:surname>
+                        <foaf:givenName>Shaohe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Xiaodong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_13"/>
+        <dc:title>Facial expression recognition: a survey</dc:title>
+        <dcterms:abstract>Facial Expression Recognition (FER), as the primary processing method for non-verbal intentions, is an important and promising ﬁeld of computer vision and artiﬁcial intelligence, and one of the subject areas of symmetry. This survey is a comprehensive and structured overview of recent advances in FER. We ﬁrst categorise the existing FER methods into two main groups, i.e., conventional approaches and deep learning-based approaches. Methodologically, to highlight the differences and similarities, we propose a general framework of a conventional FER approach and review the possible technologies that can be employed in each component. As for deep learning-based methods, four kinds of neural network-based state-of-the-art FER approaches are presented and analysed. Besides, we introduce seventeen commonly used FER datasets and summarise four FER-related elements of datasets that may inﬂuence the choosing and processing of FER approaches. Evaluation methods and metrics are given in the later part to show how to assess FER algorithms, along with subsequent performance comparisons of different FER approaches on the benchmark datasets. At the end of the survey, we present some challenges and opportunities that need to be addressed in future.</dcterms:abstract>
+        <dc:date>2019-09-20</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Facial expression recognition</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/2073-8994/11/10/1189</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:18:44</dcterms:dateSubmitted>
+        <bib:pages>1189</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2073-8994">
+        <prism:volume>11</prism:volume>
+        <dc:title>Symmetry</dc:title>
+        <dc:identifier>DOI 10.3390/sym11101189</dc:identifier>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>Symmetry</dcterms:alternative>
+        <dc:identifier>ISSN 2073-8994</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_13">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/13/Huang 等。 - 2019 - Facial Expression Recognition A Survey.pdf"/>
+        <dc:title>Huang 等。 - 2019 - Facial Expression Recognition A Survey.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_28">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qiao</foaf:surname>
+                        <foaf:givenName>Yanyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Deng</foaf:surname>
+                        <foaf:givenName>Chaorui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Qi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_14"/>
+        <dc:title>Referring Expression Comprehension: A Survey of Methods and Datasets</dc:title>
+        <dcterms:abstract>Referring expression comprehension (REC) aims to localize a target object in an image described by a referring expression phrased in natural language. Different from the object detection task that queried object labels have been pre-deﬁned, the REC problem only can observe the queries during the test. It thus more challenging than a conventional computer vision problem. This task has attracted a lot of attention from both computer vision and natural language processing community, and several lines of work have been proposed, from CNN-RNN model, modular network to complex graph-based model. In this survey, we ﬁrst examine the state of the art by comparing modern approaches to the problem. We classify methods by their mechanism to encode the visual and textual modalities. In particular, we examine the common approach of joint embedding images and expressions to a common feature space. We also discuss modular architectures and graph-based models that interface with structured graph representation. In the second part of this survey, we review the datasets available for training and evaluating REC systems. We then group results according to the datasets, backbone models, settings so that they can be fairly compared. Finally, we discuss promising future directions for the ﬁeld, in particular the compositional referring expression comprehension that requires longer reasoning chain to address.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>13</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_14">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/14/Qiao 等。 - Referring Expression Comprehension A Survey of Me.pdf"/>
+        <dc:title>Qiao 等。 - Referring Expression Comprehension A Survey of Me.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_29">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <prism:volume>33</prism:volume><prism:number>1</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Htay</foaf:surname>
+                        <foaf:givenName>Moe Moe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Win</foaf:surname>
+                        <foaf:givenName>Zin Mar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_15"/>
+        <dc:title>Survey on Emotion Recognition Using Facial Expression</dc:title>
+        <dcterms:abstract>Automatic recognition of human affects has become more interesting and challenging problem in artificial intelligence, human-computer interaction and computer vision fields. Facial Expression (FE) is the one of the most significant features to recognize the emotion of human in daily human interaction. FE Recognition (FER) has received important interest from psychologists and computer scientists for the applications of health care assessment, human affect analysis, and human computer interaction. Human express their emotions in a number of ways including body gesture, word, vocal and facial expressions. Expression is the important channel to convey emotion information of different people because face can express mainly human emotion. This paper surveys the current research works related to facial expression recognition. The study attends to explored details of the facial datasets, feature extraction methods, the comparison results and futures studies of the facial emotion system.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>10</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/15/Htay 和 Win - 2019 - Survey on Emotion Recognition Using Facial Express.pdf"/>
+        <dc:title>Htay 和 Win - 2019 - Survey on Emotion Recognition Using Facial Express.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0376635702000785">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:03766357"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cabanac</foaf:surname>
+                        <foaf:givenName>Michel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>What is emotion?</dc:title>
+        <dc:date>11/2002</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0376635702000785</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-07 17:20:48</dcterms:dateSubmitted>
+        <bib:pages>69-83</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:03766357">
+        <prism:volume>60</prism:volume>
+        <dc:title>Behavioural Processes</dc:title>
+        <dc:identifier>DOI 10.1016/S0376-6357(02)00078-5</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Behavioural Processes</dcterms:alternative>
+        <dc:identifier>ISSN 03766357</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://journals.sagepub.com/doi/10.1177/1754073918765662">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1754-0739,%201754-0747"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Adolphs</foaf:surname>
+                        <foaf:givenName>Ralph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andler</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34"/>
+        <dc:title>Investigating Emotions as Functional States Distinct From Feelings</dc:title>
+        <dc:date>07/2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://journals.sagepub.com/doi/10.1177/1754073918765662</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 04:37:46</dcterms:dateSubmitted>
+        <bib:pages>191-201</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1754-0739,%201754-0747">
+        <prism:volume>10</prism:volume>
+        <dc:title>Emotion Review</dc:title>
+        <dc:identifier>DOI 10.1177/1754073918765662</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Emotion Review</dcterms:alternative>
+        <dc:identifier>ISSN 1754-0739, 1754-0747</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/34/Adolphs 和 Andler - 2018 - Investigating Emotions as Functional States Distin.pdf"/>
+        <dc:title>已接受版本</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc6322839?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 04:37:51</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.tandfonline.com/doi/full/10.1080/02699939208411068">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0269-9931,%201464-0600"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ekman</foaf:surname>
+                        <foaf:givenName>Paul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>An argument for basic emotions</dc:title>
+        <dc:date>05/1992</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tandfonline.com/doi/full/10.1080/02699939208411068</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 04:40:06</dcterms:dateSubmitted>
+        <bib:pages>169-200</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0269-9931,%201464-0600">
+        <prism:volume>6</prism:volume>
+        <dc:title>Cognition and Emotion</dc:title>
+        <dc:identifier>DOI 10.1080/02699939208411068</dc:identifier>
+        <prism:number>3-4</prism:number>
+        <dcterms:alternative>Cognition and Emotion</dcterms:alternative>
+        <dc:identifier>ISSN 0269-9931, 1464-0600</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://ieeexplore.ieee.org/document/911197/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:10535888"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cowie</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Douglas-Cowie</foaf:surname>
+                        <foaf:givenName>E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tsapatsoulis</foaf:surname>
+                        <foaf:givenName>N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Votsis</foaf:surname>
+                        <foaf:givenName>G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kollias</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fellenz</foaf:surname>
+                        <foaf:givenName>W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taylor</foaf:surname>
+                        <foaf:givenName>J.G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Emotion recognition in human-computer interaction</dc:title>
+        <dc:date>Jan./2001</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/911197/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 05:03:59</dcterms:dateSubmitted>
+        <bib:pages>32-80</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:10535888">
+        <prism:volume>18</prism:volume>
+        <dc:title>IEEE Signal Processing Magazine</dc:title>
+        <dc:identifier>DOI 10.1109/79.911197</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>IEEE Signal Process. Mag.</dcterms:alternative>
+        <dc:identifier>ISSN 10535888</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0891422214004296">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:08914222"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Chien-Hsu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>I-Jui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenName>Ling-Yi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Augmented reality-based self-facial modeling to promote the emotional expression and social skills of adolescents with autism spectrum disorders</dc:title>
+        <dc:date>01/2015</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0891422214004296</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 05:14:42</dcterms:dateSubmitted>
+        <bib:pages>396-403</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:08914222">
+        <prism:volume>36</prism:volume>
+        <dc:title>Research in Developmental Disabilities</dc:title>
+        <dc:identifier>DOI 10.1016/j.ridd.2014.10.015</dc:identifier>
+        <dcterms:alternative>Research in Developmental Disabilities</dcterms:alternative>
+        <dc:identifier>ISSN 08914222</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://ieeexplore.ieee.org/document/6479212/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1077-2626"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bekele</foaf:surname>
+                        <foaf:givenName>Esubalew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zheng</foaf:surname>
+                        <foaf:givenName>Zhi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Swanson</foaf:surname>
+                        <foaf:givenName>Amy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crittendon</foaf:surname>
+                        <foaf:givenName>Julie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Warren</foaf:surname>
+                        <foaf:givenName>Zachary</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sarkar</foaf:surname>
+                        <foaf:givenName>Nilanjan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_39"/>
+        <dc:title>Understanding How Adolescents with Autism Respond to Facial Expressions in Virtual Reality Environments</dc:title>
+        <dc:date>04/2013</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/6479212/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 05:22:56</dcterms:dateSubmitted>
+        <bib:pages>711-720</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1077-2626">
+        <prism:volume>19</prism:volume>
+        <dc:title>IEEE Transactions on Visualization and Computer Graphics</dc:title>
+        <dc:identifier>DOI 10.1109/TVCG.2013.42</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>IEEE Trans. Visual. Comput. Graphics</dcterms:alternative>
+        <dc:identifier>ISSN 1077-2626</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_39">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/39/Bekele 等。 - 2013 - Understanding How Adolescents with Autism Respond .pdf"/>
+        <dc:title>已接受版本</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc3867269?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 05:23:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://ieeexplore.ieee.org/document/5456355/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1536-1268"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jabon</foaf:surname>
+                        <foaf:givenName>M. E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bailenson</foaf:surname>
+                        <foaf:givenName>J. N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pontikakis</foaf:surname>
+                        <foaf:givenName>E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Takayama</foaf:surname>
+                        <foaf:givenName>L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nass</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Facial expression analysis for predicting unsafe driving behavior</dc:title>
+        <dc:date>04/2011</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/5456355/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 05:28:05</dcterms:dateSubmitted>
+        <bib:pages>84-95</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1536-1268">
+        <prism:volume>10</prism:volume>
+        <dc:title>IEEE Pervasive Computing</dc:title>
+        <dc:identifier>DOI 10.1109/MPRV.2010.46</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>IEEE Pervasive Comput.</dcterms:alternative>
+        <dc:identifier>ISSN 1536-1268</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="urn:isbn:978-1-60558-393-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-60558-393-8</dc:identifier>
+                <dc:title>Proceedings of the 2008 International Conference in Advances on Computer Entertainment Technology - ACE '08</dc:title>
+                <dc:identifier>DOI 10.1145/1501750.1501809</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Yokohama, Japan</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>ACM Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lankes</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Riegler</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weiss</foaf:surname>
+                        <foaf:givenName>Astrid</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mirlacher</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pirker</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tscheligi</foaf:surname>
+                        <foaf:givenName>Manfred</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Facial expressions as game input with different emotional feedback conditions</dc:title>
+        <dc:date>2008</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://portal.acm.org/citation.cfm?doid=1501750.1501809</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 05:38:50</dcterms:dateSubmitted>
+        <bib:pages>253</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>the 2008 International Conference in Advances</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:isbn:978-1-61284-414-5">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-61284-414-5</dc:identifier>
+                <dc:title>2011 IEEE 7th International Colloquium on Signal Processing and its Applications</dc:title>
+                <dc:identifier>DOI 10.1109/CSPA.2011.5759912</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Penang, Malaysia</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jerritta</foaf:surname>
+                        <foaf:givenName>S</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Murugappan</foaf:surname>
+                        <foaf:givenName>M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nagarajan</foaf:surname>
+                        <foaf:givenName>R</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wan</foaf:surname>
+                        <foaf:givenName>Khairunizam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Physiological signals based human emotion Recognition: a review</dc:title>
+        <dc:date>03/2011</dc:date>
+        <z:shortTitle>Physiological signals based human emotion Recognition</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/5759912/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-08 08:42:35</dcterms:dateSubmitted>
+        <bib:pages>410-415</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>its Applications (CSPA)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:BookSection rdf:about="urn:isbn:978-3-540-21984-2%20978-3-540-24670-1">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>3021</prism:volume>
+                <dc:identifier>ISBN 978-3-540-21984-2 978-3-540-24670-1</dc:identifier>
+                <dc:title>Computer Vision - ECCV 2004</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin, Heidelberg</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Berlin Heidelberg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:seriesEditors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kanade</foaf:surname>
+                        <foaf:givenName>Takeo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kittler</foaf:surname>
+                        <foaf:givenName>Josef</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kleinberg</foaf:surname>
+                        <foaf:givenName>Jon M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mattern</foaf:surname>
+                        <foaf:givenName>Friedemann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mitchell</foaf:surname>
+                        <foaf:givenName>John C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nierstrasz</foaf:surname>
+                        <foaf:givenName>Oscar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pandu Rangan</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Steffen</foaf:surname>
+                        <foaf:givenName>Bernhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sudan</foaf:surname>
+                        <foaf:givenName>Madhu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Terzopoulos</foaf:surname>
+                        <foaf:givenName>Demetri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tygar</foaf:surname>
+                        <foaf:givenName>Dough</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vardi</foaf:surname>
+                        <foaf:givenName>Moshe Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weikum</foaf:surname>
+                        <foaf:givenName>Gerhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:seriesEditors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pajdla</foaf:surname>
+                        <foaf:givenName>Tomás</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Matas</foaf:surname>
+                        <foaf:givenName>Jiří</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ahonen</foaf:surname>
+                        <foaf:givenName>Timo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hadid</foaf:surname>
+                        <foaf:givenName>Abdenour</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pietikäinen</foaf:surname>
+                        <foaf:givenName>Matti</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_53"/>
+        <dc:title>Face Recognition with Local Binary Patterns</dc:title>
+        <dc:date>2004</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/978-3-540-24670-1_36</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 19:13:34</dcterms:dateSubmitted>
+        <dc:description>Series Title: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-540-24670-1_36</dc:description>
+        <bib:pages>469-481</bib:pages>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_53">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/53/Ahonen 等。 - 2004 - Face Recognition with Local Binary Patterns.pdf"/>
+        <dc:title>已提交版本</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=28F908E02DC862E6646DA6CAA3B8B002?doi=10.1.1.214.6851&amp;rep=rep1&amp;type=pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 19:13:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/0004370281900242">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00043702"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Horn</foaf:surname>
+                        <foaf:givenName>Berthold K.P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schunck</foaf:surname>
+                        <foaf:givenName>Brian G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_55"/>
+        <dc:title>Determining optical flow</dc:title>
+        <dc:date>08/1981</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/0004370281900242</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 19:17:42</dcterms:dateSubmitted>
+        <bib:pages>185-203</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00043702">
+        <prism:volume>17</prism:volume>
+        <dc:title>Artificial Intelligence</dc:title>
+        <dc:identifier>DOI 10.1016/0004-3702(81)90024-2</dc:identifier>
+        <prism:number>1-3</prism:number>
+        <dcterms:alternative>Artificial Intelligence</dcterms:alternative>
+        <dc:identifier>ISSN 00043702</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_55">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/55/Horn 和 Schunck - 1981 - Determining optical flow.pdf"/>
+        <dc:title>已提交版本</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dspace.mit.edu/bitstream/1721.1/6337/2/AIM-572.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 19:17:50</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-0-8186-8344-2">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-0-8186-8344-2</dc:identifier>
+                <dc:title>Proceedings Third IEEE International Conference on Automatic Face and Gesture Recognition</dc:title>
+                <dc:identifier>DOI 10.1109/AFGR.1998.670949</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Nara, Japan</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE Comput. Soc</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lyons</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akamatsu</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kamachi</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gyoba</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_57"/>
+        <dc:title>Coding facial expressions with Gabor wavelets</dc:title>
+        <dc:date>1998</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/670949/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 19:21:21</dcterms:dateSubmitted>
+        <bib:pages>200-205</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>Third IEEE International Conference on Automatic Face and Gesture Recognition</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_57">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/57/Lyons 等。 - 1998 - Coding facial expressions with Gabor wavelets.pdf"/>
+        <dc:title>已提交版本</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://zenodo.org/record/3430156/files/fg98-1.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 19:21:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S1077314285710041">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:10773142"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cootes</foaf:surname>
+                        <foaf:givenName>T.F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taylor</foaf:surname>
+                        <foaf:givenName>C.J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cooper</foaf:surname>
+                        <foaf:givenName>D.H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Graham</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_59"/>
+        <dc:title>Active Shape Models-Their Training and Application</dc:title>
+        <dc:date>1/1995</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S1077314285710041</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 19:22:14</dcterms:dateSubmitted>
+        <bib:pages>38-59</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:10773142">
+        <prism:volume>61</prism:volume>
+        <dc:title>Computer Vision and Image Understanding</dc:title>
+        <dc:identifier>DOI 10.1006/cviu.1995.1004</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Computer Vision and Image Understanding</dcterms:alternative>
+        <dc:identifier>ISSN 10773142</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_59">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/59/Cootes 等。 - 1995 - Active Shape Models-Their Training and Application.pdf"/>
+        <dc:title>已提交版本</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdfs.semanticscholar.org/f731/b6745d829241941307c3ebf163e90e200318.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 19:22:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.pnas.org/cgi/doi/10.1073/pnas.1322355111">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0027-8424,%201091-6490"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Du</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tao</foaf:surname>
+                        <foaf:givenName>Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Martinez</foaf:surname>
+                        <foaf:givenName>A. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_61"/>
+        <dc:title>Compound facial expressions of emotion</dc:title>
+        <dc:date>2014-04-15</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.pnas.org/cgi/doi/10.1073/pnas.1322355111</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 20:05:40</dcterms:dateSubmitted>
+        <bib:pages>E1454-E1462</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0027-8424,%201091-6490">
+        <prism:volume>111</prism:volume>
+        <dc:title>Proceedings of the National Academy of Sciences</dc:title>
+        <dc:identifier>DOI 10.1073/pnas.1322355111</dc:identifier>
+        <prism:number>15</prism:number>
+        <dcterms:alternative>Proceedings of the National Academy of Sciences</dcterms:alternative>
+        <dc:identifier>ISSN 0027-8424, 1091-6490</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_61">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/61/Du 等。 - 2014 - Compound facial expressions of emotion.pdf"/>
+        <dc:title>全文</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.pnas.org/content/pnas/111/15/E1454.full.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 20:05:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://doi.wiley.com/10.1196/annals.1280.010">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00778923,%2017496632"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ekman</foaf:surname>
+                        <foaf:givenName>Paul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Darwin, Deception, and Facial Expression</dc:title>
+        <dc:date>2006-01-24</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://doi.wiley.com/10.1196/annals.1280.010</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 20:07:08</dcterms:dateSubmitted>
+        <bib:pages>205-221</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00778923,%2017496632">
+        <prism:volume>1000</prism:volume>
+        <dc:title>Annals of the New York Academy of Sciences</dc:title>
+        <dc:identifier>DOI 10.1196/annals.1280.010</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 00778923, 17496632</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://arxiv.org/abs/1811.03402">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:1811.03402 [cs, stat]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roh</foaf:surname>
+                        <foaf:givenName>Yuji</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heo</foaf:surname>
+                        <foaf:givenName>Geon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Whang</foaf:surname>
+                        <foaf:givenName>Steven Euijong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_64"/>
+        <link:link rdf:resource="#item_65"/>
+        <link:link rdf:resource="#item_66"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistics - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>A Survey on Data Collection for Machine Learning: a Big Data -- AI Integration Perspective</dc:title>
+        <dcterms:abstract>Data collection is a major bottleneck in machine learning and an active research topic in multiple communities. There are largely two reasons data collection has recently become a critical issue. First, as machine learning is becoming more widely-used, we are seeing new applications that do not necessarily have enough labeled data. Second, unlike traditional machine learning, deep learning techniques automatically generate features, which saves feature engineering costs, but in return may require larger amounts of labeled data. Interestingly, recent research in data collection comes not only from the machine learning, natural language, and computer vision communities, but also from the data management community due to the importance of handling large amounts of data. In this survey, we perform a comprehensive study of data collection from a data management point of view. Data collection largely consists of data acquisition, data labeling, and improvement of existing data or models. We provide a research landscape of these operations, provide guidelines on which technique to use when, and identify interesting research challenges. The integration of machine learning and data management for data collection is part of a larger trend of Big data and Artificial Intelligence (AI) integration and opens many opportunities for new research.</dcterms:abstract>
+        <dc:date>2019-08-12</dc:date>
+        <z:shortTitle>A Survey on Data Collection for Machine Learning</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1811.03402</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 21:01:50</dcterms:dateSubmitted>
+        <dc:description>arXiv: 1811.03402</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_64">
+       <rdf:value>Comment: 20 pages</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_65">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/65/Roh 等。 - 2019 - A Survey on Data Collection for Machine Learning .pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1811.03402.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 21:01:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_66">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/66/1811.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1811.03402</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 21:02:12</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_67">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>6</prism:volume>
+                <dc:title>Journal of Big Data</dc:title>
+                <dc:identifier>DOI 10.1186/s40537-019-0197-0</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>J Big Data</dcterms:alternative>
+                <dc:identifier>ISSN 2196-1115</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shorten</foaf:surname>
+                        <foaf:givenName>Connor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khoshgoftaar</foaf:surname>
+                        <foaf:givenName>Taghi M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>A survey on Image Data Augmentation for Deep Learning</dc:title>
+        <dc:date>12/2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0197-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 21:22:31</dcterms:dateSubmitted>
+        <bib:pages>60</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="http://ieeexplore.ieee.org/document/6475933/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1949-3045"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mavadati</foaf:surname>
+                        <foaf:givenName>S. Mohammad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mahoor</foaf:surname>
+                        <foaf:givenName>Mohammad H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bartlett</foaf:surname>
+                        <foaf:givenName>Kevin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Trinh</foaf:surname>
+                        <foaf:givenName>Philip</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cohn</foaf:surname>
+                        <foaf:givenName>Jeffrey F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>DISFA: A Spontaneous Facial Action Intensity Database</dc:title>
+        <dc:date>04/2013</dc:date>
+        <z:shortTitle>DISFA</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/6475933/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 22:01:32</dcterms:dateSubmitted>
+        <bib:pages>151-160</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1949-3045">
+        <prism:volume>4</prism:volume>
+        <dc:title>IEEE Transactions on Affective Computing</dc:title>
+        <dc:identifier>DOI 10.1109/T-AFFC.2013.4</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>IEEE Trans. Affective Comput.</dcterms:alternative>
+        <dc:identifier>ISSN 1949-3045</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://arxiv.org/abs/2009.05938">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>arXiv:2009.05938 [cs]</dc:title>
+                <dc:identifier>DOI 10.5281/zenodo.4029679</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lyons</foaf:surname>
+                        <foaf:givenName>Michael J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kamachi</foaf:surname>
+                        <foaf:givenName>Miyuki</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gyoba</foaf:surname>
+                        <foaf:givenName>Jiro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_70"/>
+        <link:link rdf:resource="#item_71"/>
+        <link:link rdf:resource="#item_72"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Computer Vision and Pattern Recognition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Human-Computer Interaction</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>I.0</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Coding Facial Expressions with Gabor Wavelets (IVC Special Issue)</dc:title>
+        <dcterms:abstract>We present a method for extracting information about facial expressions from digital images. The method codes facial expression images using a multi-orientation, multi-resolution set of Gabor filters that are topographically ordered and approximately aligned with the face. A similarity space derived from this code is compared with one derived from semantic ratings of the images by human observers. Interestingly the low-dimensional structure of the image-derived similarity space shares organizational features with the circumplex model of affect, suggesting a bridge between categorical and dimensional representations of facial expression. Our results also indicate that it would be possible to construct a facial expression classifier based on a topographically-linked multi-orientation, multi-resolution Gabor coding of the facial images at the input stage. The significant degree of psychological plausibility exhibited by the proposed code may also be useful in the design of human-computer interfaces.</dcterms:abstract>
+        <dc:date>2020-09-15</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2009.05938</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 22:03:07</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2009.05938</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_70">
+       <rdf:value>Comment: 13 pages, 7 figures, 23 references</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_71">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/71/Lyons 等。 - 2020 - Coding Facial Expressions with Gabor Wavelets (IVC.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2009.05938.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 22:03:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_72">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/72/2009.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2009.05938</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 22:03:31</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://zenodo.org/record/4037538">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:identifier>DOI 10.5281/ZENODO.4037538</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Lyons, Michael J.</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_74"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>affective computing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ai</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>digital ethics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>informed consent</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>machine learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>training sets</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Excavating &quot;Excavating AI&quot;: The Elephant in the Gallery</dc:title>
+        <dcterms:abstract>Contains critical commentary on the exhibitions &quot;Training Humans&quot; and &quot;Making Faces&quot; by Kate Crawford and Trevor Paglen, and on the accompanying essay &quot;Excavating AI: The politics of images in machine learning training sets.&quot;</dcterms:abstract>
+        <dc:date>2020-09-19</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Excavating &quot;Excavating AI&quot;</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Datacite)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://zenodo.org/record/4037538</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 22:04:42</dcterms:dateSubmitted>
+        <dc:rights>Creative Commons Attribution 4.0 International, Open Access</dc:rights>
+        <dc:description>Publisher: Zenodo</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_74">
+       <rdf:value>&lt;h2&gt;Other&lt;/h2&gt;
+14 pages, 3 figures</rdf:value>
+    </bib:Memo>
+    <rdf:Description rdf:about="http://ieeexplore.ieee.org/document/670949/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-0-8186-8344-2</dc:identifier>
+                <dc:title>Proceedings Third IEEE International Conference on Automatic Face and Gesture Recognition</dc:title>
+                <dc:identifier>DOI 10.1109/AFGR.1998.670949</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Nara, Japan</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE Comput. Soc</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lyons</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akamatsu</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kamachi</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gyoba</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_76"/>
+        <dc:title>Coding facial expressions with Gabor wavelets</dc:title>
+        <dc:date>1998</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/670949/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 22:06:49</dcterms:dateSubmitted>
+        <bib:pages>200-205</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>Third IEEE International Conference on Automatic Face and Gesture Recognition</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_76">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/76/Lyons 等。 - 1998 - Coding facial expressions with Gabor wavelets.pdf"/>
+        <dc:title>已提交版本</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://zenodo.org/record/3430156/files/fg98-1.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 22:06:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://ieeexplore.ieee.org/document/7780969/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4673-8851-1</dc:identifier>
+                <dc:title>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</dc:title>
+                <dc:identifier>DOI 10.1109/CVPR.2016.600</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Las Vegas, NV, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benitez-Quiroz</foaf:surname>
+                        <foaf:givenName>C. Fabian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Srinivasan</foaf:surname>
+                        <foaf:givenName>Ramprakash</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Martinez</foaf:surname>
+                        <foaf:givenName>Aleix M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>EmotioNet: An Accurate, Real-Time Algorithm for the Automatic Annotation of a Million Facial Expressions in the Wild</dc:title>
+        <dc:date>6/2016</dc:date>
+        <z:shortTitle>EmotioNet</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/7780969/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-11-09 22:08:45</dcterms:dateSubmitted>
+        <bib:pages>5562-5570</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Collection rdf:about="#collection_3">
+        <dc:title>intro</dc:title>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-262-13090-5"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0376635702000785"/>
+        <dcterms:hasPart rdf:resource="http://journals.sagepub.com/doi/10.1177/1754073918765662"/>
+        <dcterms:hasPart rdf:resource="https://www.tandfonline.com/doi/full/10.1080/02699939208411068"/>
+        <dcterms:hasPart rdf:resource="http://ieeexplore.ieee.org/document/911197/"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S0891422214004296"/>
+        <dcterms:hasPart rdf:resource="http://ieeexplore.ieee.org/document/6479212/"/>
+        <dcterms:hasPart rdf:resource="http://ieeexplore.ieee.org/document/5456355/"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-60558-393-8"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-61284-414-5"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-3-540-21984-2%20978-3-540-24670-1"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/0004370281900242"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-8186-8344-2"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S1077314285710041"/>
+        <dcterms:hasPart rdf:resource="http://www.pnas.org/cgi/doi/10.1073/pnas.1322355111"/>
+        <dcterms:hasPart rdf:resource="http://doi.wiley.com/10.1196/annals.1280.010"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1811.03402"/>
+        <dcterms:hasPart rdf:resource="#item_67"/>
+        <dcterms:hasPart rdf:resource="http://ieeexplore.ieee.org/document/6475933/"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2009.05938"/>
+        <dcterms:hasPart rdf:resource="https://zenodo.org/record/4037538"/>
+        <dcterms:hasPart rdf:resource="http://ieeexplore.ieee.org/document/670949/"/>
+        <dcterms:hasPart rdf:resource="http://ieeexplore.ieee.org/document/7780969/"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_2">
+        <dc:title>survey paper</dc:title>
+        <dcterms:hasPart rdf:resource="#item_16"/>
+        <dcterms:hasPart rdf:resource="https://dl.acm.org/doi/10.1145/3395208"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S1877050919318654"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1910.09399"/>
+        <dcterms:hasPart rdf:resource="http://ieeexplore.ieee.org/document/8195348/"/>
+        <dcterms:hasPart rdf:resource="https://onlinelibrary.wiley.com/doi/10.1111/cgf.14047"/>
+        <dcterms:hasPart rdf:resource="http://link.springer.com/10.1007/s13042-019-00995-6"/>
+        <dcterms:hasPart rdf:resource="https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0197-0"/>
+        <dcterms:hasPart rdf:resource="https://www.dialogues-cns.org/contents-17-4/dialoguesclinneurosci-17-443/"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-4673-8851-1"/>
+        <dcterms:hasPart rdf:resource="https://www.mdpi.com/2073-8994/11/10/1189"/>
+        <dcterms:hasPart rdf:resource="#item_28"/>
+        <dcterms:hasPart rdf:resource="#item_29"/>
+        <dcterms:hasPart rdf:resource="http://ieeexplore.ieee.org/document/670949/"/>
+    </z:Collection>
+</rdf:RDF>
