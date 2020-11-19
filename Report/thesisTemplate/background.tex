@@ -1,40 +1,167 @@
 \chapter{Background and Related Work}
 \label{cha:background}
 
-This chapter gives a brief overview of 3D morphable face models and facial expression dataset, the background knowledge for some facial expression recognition techniques we used.
+This chapter gives a brief overview of Facial Expression Recognition，3D morphable face models and facial expression dataset. We will limit our background knowledge on discrete basic categorical model and some static based facial expression recognition techniques we used.
 
-We firstly introduce widely investigated Facial Expression Recognition in Section \ref{sec:fer}. Then, the public availability facial expression datasets are described in Section \ref{sec:fed}. Finally, we provide a
-review of building and applying 3D morphable face models \ref{sec:3dmm}.
+We widely investigated Facial Expression Recognition in Section \ref{sec:fer} at first. Then, the public available facial expression datasets are described in Section \ref{sec:fed}. Finally, we provide a review of building and applying 3D morphable face models \ref{sec:3dmm}.
 
 \section{Facial Expression Recognition}
 \label{sec:fer}
+Facial expressions are the most direct and natural carrier of human emotions state\citep{darwinExpressionEmotionsMan2009}. Building an automatic facial expression analysis system has become an urgent need for artificial intelligence. In the field of computer vision and machine learning， since the early 20th century, traditional facial expression recognition  mainly benefited from the development of handcraft features and the application of classification algorithms; after 2013, due to the large number of facial expression datasets available, facial expression recognition transfers to deep learning gradually.
 
 \subsection{Traditional methods}
+Handcraft feature engineering and classification paly vital role in traditional facial expression recognition methods. In this section we will introduce several commonly used features and classifiers. The pipeline shown in Figure \ref{fig:traditional pipeline}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{./figs/symmetry-11-01189-g004.jpg}
+    \caption{\textbf{Image Processing} usually aims to reduce redundancy information of related task. \textbf{Feature Extraction} involves how to design suitable features for FEA task. \textbf{Expression Classification} is how to category features.}
+    \label{fig:traditional pipeline}
+
+\end{figure}
+
 \subsubsection{Feature Extraction}
+The purpose of feature extraction is to extract the non-pixel information expression in pixels so that the classifier can classify these features. In FER, the major used features are local binary patterns (LBP) \citep{ahonenFaceRecognitionLocal2004},Gabor feature \citep{lyonsCodingFacialExpressions1998}, and Haar-like feature \citep{violaRapidObjectDetection2001}.
+
+\textbf{Local binary patterns (LBP):} is a simple but effective texture operator. It encodes the relationship between each pixel and nearby pixels to binary value. The most important attribute of LBP is its robustness to grayscale changes such as illumination changes. Another important feature is its computational simplicity, which enables real-time analysis of images. A simple way to encode facial expression is shown in Figure \ref{fig:LBP}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{./figs/LBP.jpg}
+    \caption{Using LBP to encode facial expression.Divide input image into several cells, the local binary features of different cells are calculated respectively. Next, calculate the histogram of each cells. Finally, concatenate the normalized histograms to form the feature vector of input.}
+    \label{fig:LBP}
+\end{figure}
+
+In the applications of FER, there are also several promoted algorithms based on LBP. For example, Complete Local Binary Pattern (CLBP)\citep{zhenhuaguoCompletedModelingLocal2010} achieves better performance than the original LBP. LBP-based Local Directional Pattern (LDP) \citep{jabidFacialExpressionRecognition2010} shows robust to illumination changes. The advantage of LBP methods is low computational complexity and small memory usage demanded. However, noise sensitivity and only focusing on local information are the disadvantages of this method.
+
+\textbf{Gabor Feature:} is another kind of texture feature. In FER, we benefit from the multi-resolution and multi-orientation property of Gabor feature to encode facial expression image \citep{lyonsCodingFacialExpressions1998}. \citeauthor{mattelaFacialExpressionRecognition2018} proposed Gabor-mean-DWT to tackle the dimensional disaster of original Gabor feature. Gabor feature's merits is that it is not sensitive to illumination and direction, and can apply multi-scales. However, the calculation is time-consuming and requires a lot of memory.
+
+% \textbf{Active Shape Model (ASM):} is proposed to use features to describe the geometric features of the face. The purpose is similar to face landmark detection. However, ASM is a statistical model, but face landmark detection usually uses neural network.
+\textbf{Haar-like feature:} is designed to be used for target recognition tasks. It combines the lines, borders and other features of the picture. It is also the first instant face detection operation. Compared to most other features, Haar-like feature  known for calculation speed. Due to the use of integral images, any size can be calculated in constant time. However, it is sensitive to illumination. If the global region illumination diverse, the Harr-like feature may be hard to describe the local grayscale variation.
+
 
 \subsubsection{Classification}
+After we extract the features, another significant characteristic of the traditional method is the application of classifiers. In machine learning, the most widely used classifiers include: Support Vector Machine (SVM), k-Nearest Neighbours(kNN), Adaptive Boosting (Adaboost) and etc.
 
-\subsection{Learn-based Method}
+\textbf{Support Vector Machine (SVM):} aims to solve the data classification problem in the field of pattern recognition, which is a kind of supervised learning algorithm. The core of SVM is to map linearly inseparable data to a high-dimensional space through the kernel function to achieve linearly separable. Due to the characteristics of the kernel function, we can eliminate the need for complex calculations in high-dimensional space and solve the  dimension disaster to a certain extent. In FER, SVM is widely used after different features representation, and has achieved good performance \citep*{michelRealTimeFacial2003,tsaiFacialExpressionRecognition2018,hsiehEffectiveSemanticFeatures2016,saeedEmpiricalEvaluationSVM2018}.
 
-\subsubsection{CNN-based Approaches}
-\subsubsection{Long Short-Term Memory(LSTM)}
-\subsubsection{Genrative Adversarial Network (GAN)}
+\textbf{k-Nearest Neighbours(kNN):} is the simplest supervised classification algorithm. Typically, kNN is a representative of lazy learning due to no need for training phase. Every new data must be compared with each training data. Unfortunately, kNN has not ability to capture global structure of data. Hence, kNN might involve in local optimal solution or unstable clarification \citep*{dinoFacialExpressionClassification2019,wangNewFacialExpression2015}.
+
+\textbf{Adaptive Boosting (Adaboost)'s:} key thought is that classifier will use the sample from last misclassified classifier  to train a classifier. AdaBoost aims to find the best training features that are useful for its weak classifiers. After each feature selection, weights will be re-adjusted by the local classification error. It reduces overfitting to a certain extent \citep*{liewFacialExpressionRecognition2015,krishnagudipatiEfficientFacialExpression2016}.
+
+There are many other handcraft features and classifer that we have not mentioned in this section, but we can see that the major handcraft features used for facial expression recognition are geometric and texture features. This also shows that if we want to generate facial expressions data, geometry and material  will be two important components.
+
+\subsection{Deep Learning-based Method}
+% https://oysz2016.github.io/post/5d962f61.html
+Compared with traditional methods, deep learning methods also have three similar steps. But it greatly reduces the model's dependence on image preprocessing and handcraft feature engineering. It also improves the robustness to the environment. In the section, we will outline the existing technologies involved in deep learning in facial expression recognition. Figure \ref{fig:deep} shows the pipeline of deep learning facial expression recognition system .
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{./figs/deep.png}
+    \caption{A typical architecture for deep learning facial expression recognition \citep{liDeepFacialExpression2020}.}
+    \label{fig:deep}
+\end{figure}
+
+\subsubsection{Image Preprocessing}
+Illumination, environment and head pose changes will limit the performance of the training model. Hence, before feeding our data into deep neural network, we should normalize those visual facial semantic information as first. 
+
+\textbf{Face alignment:} is widely used in many computer vision tasks of faces. For a given face datasets, the first step is often to detect and crop the face to eliminate irrelevant background and information.  ViolaJones(V\&J) \citep{violaRapidObjectDetection2001} is one of widely used frontal face detection, which had built in most popular computer vision library like opencv. After face detection, in order to capture the geometric features, \citeauthor{mollahosseiniGoingDeeperFacial2016} showed that with landmarks detection feeding into network, the FER performance imporve significantly. That's because it highly reduce the effect of scale and rotation of face image. Of course, many deep neural network has been employed in face detection and landmark detection. Cascaded CNN \citep{sunDeepConvolutionalNetwork2013} is the most popular technicals due to its inference speed and accuracy. Although Mutlti-task CNN \citep{zhangJointFaceDetection2016} and other multi-task network imporve the performance, we still make compromises on speed and accuracy. In our method, we use Cascaded CNN in dlib to detection face as well.
+
+\textbf{Face normalization:} amis to reduce the effect of diversity of illumination and head pose. \textit{Illumination normalization}: Many deep learning FER system preprocess image by histogram equalization to increase the contrast \citep*{yu2015image,ebrahimi2015recurrent,pitaloka2017enhancing,10.1145/2993148.2997627}. It shows outstanding performance when the illumination normalization when the background and front face area are under near illumination condition. However, to address the overemphasizing local contrast of using histogram equalization, \citeauthor{kuo2018compact} proposed a robust histogram equalization with linear combination. And \citeauthor{pitaloka2017enhancing} measured the performance of different methods, it concluded that global contrast normalization (GCN) and histogram equalization have achieved the best performance in FER recognition. \textit{Pose normalization}: Variant head pose and occlusion significantly affect the performance of facial expression recognition system. \citeauthor{Hassner_2015} proposed using a 3D texture reference model to estimate pose, and then project back. Over the same period， \citeauthor{7410798} taken advantage of statistical model to localize landmark and estimate pose. In addition, Genrative Adversarial Network (GAN) were employed in front view synthetic and achieve better performance like DR-GAN \citep{tran2017disentangled}, TP-GAN \citep{yin2017towards}.
+
+\subsubsection{Convolutional Neural Network (CNN)}
+In computer vision and machine learning, DL has shown his capabilities of extracting low or high-level abstract features, which is more effective than handcraft features, and significantly improved performance in many fields, such as objecte detection, face recognition for identity verification and etc.. As for facial expression, Convolutional Neural Network (CNN) are widely used. \citeauthor{fasel2002robust} and \citeauthor{1167051} found that CNN has the ability to tackle pose and scala variation. It also outperformance the traditional multilayer perceptron (MLP).
+
+AlexNet \citep{krizhevsky2017imagenet},VGG \citep{simonyan2014very},GoogleNet \citep{szegedy2015going}, Resnet \citep{he2016deep} are the most famous and popular CNN model, which has been explored in facial expression recognition. Moreover, some model proposed to address object detection task also adapt into facial expression recognition, such as Region-based CNN (R-CNN)\citep{girshick2013rich} and Faster R-CNN \citep{li2017facial}. In order to handle spatio-temporal information, 3D CNN \citep*{ji20123d,tran2014learning} has been used to capture spatial representation of expression. However, in this thesis, we only focus on static image which doesnot involve spatio-temporal feature.
+
+% \subsubsection{Genrative Adversarial Network (GAN)}
+% In recently, Genrative Adversarial Network (GAN)   
+\subsubsection{Deep Learning Classification}
+After learning features from model, the last step of deep learning methods also need to classify these features representation. However, unlike traditional methods, feature extraction and classification are independent of each other. In facial expression recognition, 
+deep learning method can be an end-to-end approach, or just use CNN as a feature extractor and then combined with another classifier. For the first way, in CNN, the most common is to use loss function to minimize the gap between the predicted distribution and the true distribution. We can also use linear SVM \citep{tang2013deep} or other differentiable classifiers to build end-to-end facial recognition system. In addition to the end-to-end way, independent classifiers such as random forest, adaboost, and etc. can be applied to classify the extracted features from deep learning model \citep{donahue2013decaf}.
+
+
 
 \section{Facial Expression Dataset}
 \label{sec:fed}
+For the design of the a deep facial expression recognition system, it is crucial to have the labeled training data. The training data are sufficient to have variations of environment as well as identify. In this section, we will introduce some public available dataset and basic information of these dataset. We will focus on their environment setting, size, drawbacks and etc..
 
-\subsection{Vedio datasets}
+\textbf{EmotionNet:\citep{7780969} } The dataset was released in 2017, with a total of 950,000+ images, including basic expressions, compound expressions, and face action units. With large amount of the image, this dataset cover almost all possible facial expression. All the imges were anontated by the automatic AUs detection tools. However, due to all the images are downloaded from the websites, there will not be of fixed resolution.
 
-\subsection{Image datasets}
+
+\textbf{AffectNet:\citep{mollahosseini2017affectnet}} The data set was released in 2017.
+The dataset was collected using 1250 keywords in 6 different languages for retrieval in search engines, and get more than 42000 images. All images are labeled manually. The label type includes basic expression and realted amplitude. The expression type includes 8 basic expressions such as neutral expression, happy, sad, surprised, afraid, disgusted, angry, and contemptuous, as well as expressionless, uncertain, and unmanned. This dataset has provide annotation of searched key for all images.
+
+\textbf{The extended CohnKanade:\citep{lucey2010complete}} This dataset was released in 2010, this database is an extension of the Cohn-Kanade Dataset, which contains 137 video frames of different facial expressions of people. CK+ contains 593 video sequence from 123 objective. The sequences has difference frames from 10 to 60. For sequences, 327 sequences from 118 subject are label with seven different facial expressions. CK+ is all in the lab. This dataset includes the frame information of the video and also gives out the peak of an expression. However, this dataset is different from the wild. When we want to use it in reality, we need to convert it.
+
+\textbf{Aff-Wild:\citep{zafeiriou2017aff}} This dataset contains 248 videos with the length of 30 hours. All the videos in the dataset are recorded arbitrarily. It contains 130 males objects and 70 female objects. The videos are annotated by valence and arousal.Valence and arousal shows the degree of a facial expression, like degree of negative or positive. This dataset is the largest video dataset for facial expression. However due to faces are extracted from the video, numbers of subject are not high.
+
+\textbf{Oulu-CASIA:\citep{zhao2011facial}} This dataset contains images of 80 subjects and six basic face expression, including happiness,surprise, fear, anger, sadness and disgust. National Laboratory of Pattern Recognition Beijing provides 30 Chinese sujects. University of Oulu provides 50 subjects. When they gain the dataset, they used two image light and visible light. So this dataset is popular for images which are captured in different illumination condition. However, this dataset only contains the frontal pose of subjects. 
+
+\textbf{Denver Intensity of Spontaneous Facial Action(DISFA):\citep{mavadati2013disfa}} This data set contains videos of 27 subjects. Half are males and half are females. This dataset uses 12 action unit to encode the expression and six expression are identified including surprise, sad, smile, neutral, disgust and neural. The video in this dataset contains 4845 number of frames and also are taken based on their stimulus to an emotive video. This dataset focus on FACS standard to generate video sequence. However, this dataset does not suit for the testing staga.
+
+\textbf{Japanese Female Facial Expression(JAFFE) Database:\citep{lyons1998coding}} The dataset was released in 1998. The database is a facial expression image captured by a camera by 10 Japanese women who made various expressions according to instructions in an experimental environment. There are a total of 213 images in the entire database, 10 people, all women, and each person makes 7 expressions. These 7 expressions are sad, happy, angry, disgusted, surprised, fearful, and neutral. There are about 20 samples in each group. Figure. Because it captured in the lab, facial expression is very clear. But the background for the image is noisy.
+
+\textbf{MMI Facial Expression Dataset: \citep{pantic2005web} } This dataset contains over 2900 videos and high-resolution still images of 75 subjects. AUs are completely annotated. This dataset is laboratory-controlled. The 213 sequence are labeled with six basic expression. The sequence in this dataset are onset-apex-offset labeled.
+
+\textbf{Binghamton University 3D Facial Expression(BU-3DFE): \citep{yin20063d}} This dataset is designed for research on 3D facial expression. It contains 56 females and 44 males subject and 100 in total. Those subjects are from various racial ancestries. Also they have wide age range from 18 to 70. This dataset contains six basic facial expressions. Also, 3D facial models for each sbuject are introduced in the dataset. Also 83 manually annotated facial landmark connected with each model are contained. This dataset is used for multiview 3D facial expression analysis.
+
+\textbf{FER2013 Face Dataset : \citep{carrier2013fer}} This dataset was released in 2013. This dataset contains 35887 face images and includes 28709 training sets, and 3589 verification sets and 589 test sets. All the images are gray scale with 48 pixels plus 48 pixels. This dataset contains seven basic face expressions incluidng fear, anger, sad, surprise, happy, disgust and neutral. Each sample in the dataset has a wide range of age, direction. So it is closed to the real world.
+
+\textbf{ Real-word Affective Database(RAF-DB) : \citep{li2018reliable}} This dataset contains 29672 diverse facial images. All the images are downloade from the website. This dataset contains six basic and eleven compound emotion. The 15339 images from the basic emotion set were separated into two group, including training sample and test sample.
+
+% We summarize the information of different facial expression dataset. 
+
+Among these dataset, we can summarize that images from those larger size facial expression datasets are variant resolution, even most of data are low resolution, and inconsistency among different image quality. On the other hand, images from those larger size facial expression datasets are usually generated in the laboratory condition. Therefore, those dataset lack the diversity. In this condition, we aim to solve the quailty of the facial expression image and the diversity of the data images.
+
+% So I am trying to make use of the unity, blender, Maya and other 3D modeling software to achieve synthetic face data.
 
 \section{3D Morphable Face Models}
 \label{sec:3dmm}
+One of the most typical ways to synthesize data is to use game engines, such as Unity, Unreal, or modeling tools like Blender, C3D to synthesize data in the virtual physical world.
+
+When we use the 3D engine to synthetic data, we need to find out or construct suitable morphable facial model. Thus, in this section we will investigate 3D Morphable Face Models (3DMM).
+
+A 3D morphable face model is a genertive model for face shape and appearance. 3D Morphable Face Models were first introduced in 1999\citep{blanz1999morphable}. And these models were used as a general principled approach to analyse images. There are different ways to compute a 3DMM by modeling. In this part, I will introduce these three different ways.
+
 \subsection{Shape model}
+
+The Shape model is classical modeling approach that uses 3D data. A shape space is traditionally defined as the set of all configuration of $n$ vertices in 3D space with fixed connectivity\citep{dryden2016statistical}. Commonly used model are two models. One is the global model that represents variation of the entire face surface. The other is the local model that varation of facial parts.
+
+
 \subsection{Expression model}
+
+This kind of model captures variation of both identity and expression. Unlike simple linear models which learn through a dataset that has different identity and expression, this model focus on explicitly decouple the influence of identity and expression\citep{booth20173d}. This is achieve by modeling in separate coefficients. 
+
+There are three different kinds of methods. The first one is additive model. This model gives two shape of the subject,including expression and neutral shape. It tranferred expression between subject by adding the offset of the expression\citep{blanz1999morphable}. The second is multiplicative model. A common multiplicative model is the concept of the multilinear model, which extends the idea that PCA performs singular value decomposition. The decomposition of the 3D face data into a stack of training data (HOSVD) by performing higher order tensor data to tensor data\citep{vlasic2006face}. The third is nonlinear model. There also some methods to model facial variation with nonlinear transformation, such as FLAME, an articulated expressive head model that gives nonlinear control\cite{yu2017learning}.
+
 \subsection{Appearance model}
+
+The appearance model is to capture variation in appearance and illumination. The most common way to build it is to provide statistics on the appearance of the training shape, where the appearance information is usually expressed as a value per vertex or as a texture in the uv space\citep{booth20173d}. There are two models. One is the linear per-vetex model which is low-dimension texture, the other is linear texture space model which require compatible resolution.
+
+\subsection{Public Available 3D Morphable Facial Model}
+
+\textbf{Base Face Model(BFM) 2009 : \citep{paysan20093d}} This model is a kind of the shape model. Pascal Paysan used a laser scanner to accurately collect 200 individual data in 2009 to obtain the Basel Face Model dataset. The entire data set contains 200 three-dimensional faces. Among them, 100 were males and 100 were females, and most of them were Caucasian. The age distribution of these data is 8 to 62 years old. Everyone was collected 3 neutral expressions and selected the most natural one.
+
+\textbf{FaceWarehouse : \citep{cao2013facewarehouse}} This model is kind of shape and expression model. Cao used Kinect's RGBD camera to capture 150 individuals from 7-80 years old from different ethnic backgrounds. For each person, it collected RGBD data of her different expressions, including neutral expressions and 19 other expressions.
+FaceWareHouse is widely used in visualization calculations, especially the bilinear face model has excellent performance in estimating face identity and expression in pictures and videos.
+
+\textbf{Surrey Face Model: \citep{huber2016multiresolution}} This model is kind of shape abd expression model. This model is a multi-resolution 3D deformed face model provided by the University of Surrey in the UK.The model contains different grid resolution levels and landmark point annotations, as well as metadata for texture remapping.
+
+\textbf{Face Learned with an Articulated Model and expression(FLAME) : \citep{yu2017learning}} This is kind of shape, expression and head pose model. It contains 3800 individualis for shape, 800 for head pose and 21000 frames for expression. It considers different genders and also a full head model without hair.
+
+\textbf{Base Face Model(BFM) 2017: \citep{gerig2018morphable}} This is kind of shape and expression model. It has 200 individuals for shape and appearance and a total of 160 expression scans. Also this is an extension of the BFM 2009. Compare with the BFM 2009, BFM 2019 has multiresolution and was with full head. 
+
+\textbf{Morphable Face Albedo Model:\citep{smith2020morphable} }
+This model is an extension of BFM 2017. It contains 73 individuals.The model captured data to provide ground truth for an albedo estimation benchmark using the same fitting pipeline. This model reduces the error in the estimated albedo by nearly 70 percent compared to using the existing base face model
 
 
 \section{Summary}
+In this chapter, we first introduce the traditional methods for FEA. We found that the design features of traditional methods are mainly focused on the geometric features and texture features of the face. This inspired us that for synthesize facial expression data, we should not only pay attention to the geometry information, such as the outline of the face. The material also contains the underlying information of the facial expression.
+
+Moreover, we compared deep learning with traditional methods and summarized the application of deep learning in facial expression recognition. 
+
+Finally， we summarized the public facial expression dataset and 3d Morphable face models, and explained their potential problems and advantages.
+
 % Summary what you discussed in this chapter, and mention the story in next
 % chapter. Readers should roughly understand what your thesis takes about by only reading
 % words at the beginning and the end (Summary) of each chapter.
